@@ -29,4 +29,7 @@ options = {
 if __name__ == "__main__":
     elements = fillURLs()
     for element in elements:
-        options[element["type"]](element["url"])
+        if( (element["type"] == "F" or element["type"] == "S") and  element["url"] != ""):
+            options[element["type"]](element["url"])
+        else:
+            print("Error during URL list analysis")
