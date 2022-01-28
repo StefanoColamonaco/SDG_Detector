@@ -10,11 +10,12 @@ def fillURLs():
             urls.append(line)
 
 
-if __name__ == "__main__":
+def retrieve():
     fillURLs()
     for url in urls:
         response = requests.get(str(url))
         html = response.text
 
         soup = BeautifulSoup(html, features="html.parser")
-        print(soup.get_text())
+        # print(soup.get_text())
+        return soup.get_text()
