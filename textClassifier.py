@@ -1,11 +1,16 @@
 ## importing libraries
 import os, nltk, re, random
+import os, nltk, re, random, time
+from nltk.parse import CoreNLPDependencyParser
+from nltk.corpus import wordnet as wn
 
 # loading goals and targets
 # goal regex: Goal ([0-9]+): ([a-zA-Z0-9-,.:! ]+) /// g1 = goal number /// g2 = goal text
 # target regex: [0-9]+.[0-9]+: ([a-zA-Z0-9-,.:! ]+) /// g1 = target text
 sdgir = dict() # SDG info raw list
 classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
+tpairs = {} # the storage of verb-object pairs for targets 
+tdict = {} # the storage of verb-object pairs for sentences in text
 
 def preload():
     for entry in os.listdir('./data/sdgs'):
@@ -22,61 +27,63 @@ def preload():
             line = file.readline()
         file.close()
 
-def vbnp_pairs(text):
-    grammar = r"""
-    PP: {<IN><DT|JJ|NN.*>+}
-    NP: {<DT|JJ|NN.*|CD>+}
-    VP: {<RB>*<VB.*>(<TO|VB.*>|<NP|PP|,>+)*}
-    """
-    cp = nltk.RegexpParser(grammar)
-    sent = []
-    try:
-        sent = nltk.pos_tag(nltk.word_tokenize(text))
-    except:
-        return []
-    tree = cp.parse(sent)
+def vrbobj_pairs(text):
+    dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
+    sent = nltk.word_tokenize(text)
+    parse, = dep_parser.parse(sent)
     ans = []
-    for subtree in tree.subtrees():
-        if subtree.label() == 'VP':
-            current_vb = None
-            last = ""
-            for st in subtree:
-                if type(st) is nltk.tree.Tree and st.label() == 'NP' and current_vb:
-                    np = ""
-                    for leave in st.leaves():
-                        np += leave[0] + " "
-                    ans.append((current_vb, np[:-1]))
-                    current_vb = None
-                elif type(st) is tuple and st[1].startswith('VB'):
-                    current_vb = st[0]
-                last = st[0]
+    for governor, dep, dependent in parse.triples():
+        if dep == 'obj':
+            ans.append((governor[0], dependent[0]))
     return ans
 
-# creating feature extractor based on vbnp pair overlap
+# creating feature extractor based on verb-object pair overlap
 def feature_extractor(goal, text):
     features = {} # features
     fc = 0
-    pairs = vbnp_pairs(text)
-    for target in sdgir[goal][1]:
-        tpairs = vbnp_pairs("We want to " + target.lower())
-        for tp in tpairs:
-            if tp in pairs:
+    pairs = []
+    if text in tdict.keys():
+        pairs = tdict[text]
+    else:
+        tdict[text] = pairs = vrbobj_pairs(text)
+    for target in tpairs[goal]:
+        for p in pairs:
+            vflag, oflag = False, False
+            for ss in wn.synsets(target[0]):
+                if p[0] in ss.lemma_names():
+                    vflag = True
+                    break
+            if not vflag:
+                continue
+            for ss in wn.synsets(target[1]):
+                if p[1] in ss.lemma_names():
+                    oflag = True
+                    break
+            if vflag and oflag:
                 fc += 1
-                break
-    features['vbnp_pair_overlap'] = fc
+                features['vrbobj_pair_overlap'] = fc
     return features
 
-# defining classifier
+# defining and training classifier
 def init_classifiers():
+    # initialization of the storage of verb-object pairs for targets
+    tpairs.clear()
+    for goal in sdgir.keys():
+        tpairs[goal] = []
+        for target in sdgir[goal][1]:
+            tpairs[goal] += vrbobj_pairs("We want to " + target.lower())
+    # defining classifier
     labeled_sent = [("We want to " + target.lower(), goal) for goal in sdgir.keys() for target in sdgir[goal][1]]
     random.shuffle(labeled_sent)
+    tdict.clear()
     for goal in sdgir.keys():
         featuresets = [(feature_extractor(goal, e), g == goal) for (e, g) in labeled_sent]
         print('Feature sets generated for goal {}'.format(goal))
-        train_set = featuresets[:100]
+        train_set = featuresets[:70]
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
 
 def check_sdg(text):
+    tdict.clear()
     preload()
     init_classifiers()
     for goal in sdgir.keys():
