@@ -10,6 +10,13 @@ sdgir = dict() # SDG info raw list
 classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
 tpairs = {} # the storage of verb-object pairs for targets 
 tdict = {} # the storage of verb-object pairs for sentences in text
+dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
+
+def initialize():
+    tdict.clear()
+    preload()
+    init_classifiers()
+    print("\n INITIALIZATION COMPLETED \n")
 
 def preload():
     for entry in os.listdir('./data/sdgs'):
@@ -27,7 +34,6 @@ def preload():
         file.close()
 
 def vrbobj_pairs(text):
-    dep_parser = CoreNLPDependencyParser(url='http://localhost:9000')
     sent = nltk.word_tokenize(text)
     parse, = dep_parser.parse(sent)
     ans = []
@@ -80,12 +86,6 @@ def init_classifiers():
         print('Feature sets generated for goal {}'.format(goal))
         train_set = featuresets[:70]
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
-
-def initialize():
-    tdict.clear()
-    preload()
-    init_classifiers()
-    print("\n INITIALIZATION COMPLETED \n")
 
 def check_sdg(text):   
     tdict.clear() 

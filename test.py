@@ -11,7 +11,6 @@ if __name__ == "__main__":
     texts = retrieve()
     initialize()
     for text in texts:
-        #print("\n TEXT: \n",text,"\n\n")
         check_sdg(text)
         print("\n SINGLE TASK COMPLETED \n ")
     print("\n THE ANALYZES HAVE BEEN COMPLETED \n")
