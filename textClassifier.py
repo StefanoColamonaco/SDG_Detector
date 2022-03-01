@@ -1,5 +1,4 @@
 ## importing libraries
-import os, nltk, re, random
 import os, nltk, re, random, time
 from nltk.parse import CoreNLPDependencyParser
 from nltk.corpus import wordnet as wn
