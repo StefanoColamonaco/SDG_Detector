@@ -10,8 +10,8 @@ def file(url):
     #print("is a file", url)
     response = requests.get(str(url))
     text = response.text
-    return text
     #print(text)
+    return text
     
 def site(url):
     #print("is a site", url)
@@ -19,8 +19,8 @@ def site(url):
     html = response.text
     soup = BeautifulSoup(html, features="html.parser")
     text = soup.get_text()
-    return text
     #print(text)
+    return text
 
 options = {
     "F": file,
@@ -29,8 +29,10 @@ options = {
 
 def retrieve():
     elements = fillURLs()
+    texts = []
     for element in elements:
         if( (element["type"] == "F" or element["type"] == "S") and  element["url"] != ""):
-            return options[element["type"]](element["url"])
+            texts.append(options[element["type"]](element["url"]))
         else:
             print("Error during URL list analysis")
+    return texts

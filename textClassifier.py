@@ -81,10 +81,14 @@ def init_classifiers():
         train_set = featuresets[:70]
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
 
-def check_sdg(text):
+def initialize():
     tdict.clear()
     preload()
     init_classifiers()
+    print("\n INITIALIZATION COMPLETED \n")
+
+def check_sdg(text):   
+    tdict.clear() 
     for goal in sdgir.keys():
         ans = classifier[goal].classify(feature_extractor(goal, text))
         if ans:

@@ -1,5 +1,6 @@
 from textRetriever import retrieve
 from textClassifier import check_sdg
+from textClassifier import initialize
 
 import nltk
 nltk.download('wordnet')
@@ -7,4 +8,10 @@ nltk.download('punkt')
 nltk.download('omw-1.4')
 
 if __name__ == "__main__":
-    check_sdg(retrieve())
+    texts = retrieve()
+    initialize()
+    for text in texts:
+        #print("\n TEXT: \n",text,"\n\n")
+        check_sdg(text)
+        print("\n SINGLE TASK COMPLETED \n ")
+    print("\n THE ANALYZES HAVE BEEN COMPLETED \n")
