@@ -15,15 +15,7 @@ tdict = {} # the storage of verb-object pairs for sentences in text
 def initialize():
     preload()
     init_classifiers()
-    #printGeneratedCouples()
     print("\n INITIALIZATION COMPLETED \n")
-
-def printGeneratedCouples():
-    for goal in sdgir.keys():
-        for target in sdgir[goal][1]:
-            print("\n")
-            vrbobj_pairs("We want to " + target.lower())
-            print("\n")
 
 def preload():
     for entry in os.listdir('./data/sdgs'):
@@ -63,8 +55,8 @@ def feature_extractor(goal, text):
                     oflag = True
                     break
             if vflag and oflag:
-                fc += 1
-                features['vrbobj_pair_overlap'] = fc
+                features['contains(%s)' % str(target)] = True
+                break
     return features
 
 # defining and training classifier
