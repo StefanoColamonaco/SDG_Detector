@@ -13,7 +13,7 @@ tpairs = {} # the storage of verb-object pairs for targets
 tdict = {} # the storage of verb-object pairs for sentences in text
 
 def initialize():
-    preload()
+    #preload()
     init_classifiers()
     print("\n INITIALIZATION COMPLETED \n")
 
@@ -23,7 +23,7 @@ def preload():
         line = file.readline()
         gm = re.match(r'Goal ([0-9]+): ([^\n]+)', line)
         goal = int(gm.group(1))
-        sdgir[goal] = (gm.group(2), [])
+        sdgir[goal] = (gm.group(goal), [])
         file.readline()
         while line:
             tm = re.match(r'[0-9]+.[0-9]+: ([^\n]+)', line)
@@ -31,6 +31,7 @@ def preload():
                 sdgir[goal][1].append(tm.group(1))
             line = file.readline()
         file.close()
+    print(sdgir[goal][1])
 
 # creating feature extractor based on verb-object pair overlap
 def feature_extractor(goal, text):

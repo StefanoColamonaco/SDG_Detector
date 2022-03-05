@@ -7,21 +7,41 @@ from nltk.corpus import wordnet as wn
 
 nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse,constituency')
 
-#def vrbobj_pairs_prev(text):
-#    sent = nltk.word_tokenize(text)
-#    parse, = dep_parser.parse(sent)
-#    ans = []
-#    for governor, dep, dependent in parse.triples():
-#        if dep == 'obj':
-#            ans.append((governor[0], dependent[0]))
-#    return ans
+def orderTuples(allPairs):
+    tmp = []
+    for pairs in allPairs:
+        tmp = tmp + pairs
+    tmp.sort(key=lambda x:x[1])
+    tmp.sort(key=lambda x:x[0])
+    return tmp
+
+def writePairsForSDG(sdg, pairs):
+    stringnum = ""
+    if(sdg < 10):
+        stringnum = "0"
+    stringnum = stringnum + str(sdg) 
+    with open('./data/dataset/'+stringnum+'pairs.txt','w') as f:
+        for tup in pairs:
+            text = str(str(tup[0])+" "+str(tup[1])+" "+str(tup[2])+"\n")
+            f.write(text)
+        
+
+def generateDatasetFor(sdgNum, texts):
+    allPairs = []
+    for text in texts:
+        pairs = vrbobj_pairs(text)
+        allPairs.append(pairs)
+    return allPairs
+
 
 def vrbobj_pairs(text):
     doc = nlp(text)
+    allPairs = []
     for sentence in doc.sentences:
         pairs = extrapolatePairs(sentence.words)
         #print(sentence.text)
-        return pairs
+        allPairs = allPairs + pairs
+    return allPairs
 
 def extrapolatePairs(words):
     pairs = []
@@ -31,11 +51,13 @@ def extrapolatePairs(words):
         if(verb != -1 and validate(verb.lemma, noun.lemma)):
             pairs.append((verb.lemma, noun.lemma,getWeightFor(verb.lemma,noun.lemma)))
     return pairs
-    #print(pairs)
 
 def goBackToVerb(word, words):
     while word.deprel != "root":
         word = words[word.head-1]
+        #This is an extra filter, verify if necessary
+        if(word.upos == "NOUN"):
+            return -1
         if(word.upos == "VERB"):
             return word;
     return -1
