@@ -1,0 +1,14 @@
+{
+    "blacklistedVerbs":[
+
+    ],
+    "blacklistedNouns":[
+
+    ],
+    "blacklistedCouples":[
+        {
+            "verb": "eradicate",
+            "noun": "people"
+        }
+    ]
+}

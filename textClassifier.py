@@ -3,9 +3,16 @@ import stanza
 #from stanza.server import CoreNLPClient
 import os, nltk, re, random, time
 from nltk.parse import CoreNLPDependencyParser
+import json
 from nltk.corpus import wordnet as wn
 
 nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse,constituency')
+
+with open('./data/options/blacklist.json') as f:
+    blObj = json.load(f)
+    blacklistedVerbs = blObj["blacklistedVerbs"]
+    blacklistedNouns = blObj["blacklistedNouns"]
+    blacklistedCouples = blObj["blacklistedCouples"]
 
 def orderTuples(allPairs):
     tmp = []
@@ -70,6 +77,14 @@ def getNouns(words):
     return toReturn
 
 def validate(verb,noun):
+    if(verb in blacklistedVerbs):
+        return 0
+    if(noun in blacklistedNouns):
+        return 0
+    for couple in blacklistedCouples:
+        if(couple["verb"] == verb and couple["noun"] == noun):
+            print(verb,noun)
+            return 0
     return 1
 
 def getWeightFor(verb,noun):

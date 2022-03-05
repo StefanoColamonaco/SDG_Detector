@@ -9,7 +9,6 @@ end form 1
 end poverty 1
 end poverty 1
 ensure mobilization 1
-eradicate people 1
 eradicate poverty 1
 have man 1
 have rights 1
