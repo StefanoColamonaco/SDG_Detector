@@ -83,7 +83,6 @@ def validate(verb,noun):
         return 0
     for couple in blacklistedCouples:
         if(couple["verb"] == verb and couple["noun"] == noun):
-            print(verb,noun)
             return 0
     return 1
 
