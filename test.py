@@ -19,7 +19,6 @@ if __name__ == "__main__":
             pairs = orderTuples(allPairs)
             writePairsForSDG(sdg, pairs)
     texts = retrieve()
-    #TODO: preload must use data in dataset, not in sdg folder
     initialize()
     for text in texts:
         check_sdg(text)

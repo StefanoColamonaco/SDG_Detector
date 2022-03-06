@@ -9,21 +9,22 @@ from textClassifier import vrbobj_pairs
 # target regex: [0-9]+.[0-9]+: ([a-zA-Z0-9-,.:! ]+) /// g1 = target text
 sdgir = dict() # SDG info raw list
 classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
-tpairs = {} # the storage of verb-object pairs for targets 
+tpairs = dict() # the storage of verb-object pairs for targets 
 tdict = {} # the storage of verb-object pairs for sentences in text
 
 def initialize():
-    #preload()
+    preload()
     init_classifiers()
+    #printGeneratedCouples()
     print("\n INITIALIZATION COMPLETED \n")
-
+            
 def preload():
     for entry in os.listdir('./data/sdgs'):
         file = open('./data/sdgs/' + entry)
         line = file.readline()
         gm = re.match(r'Goal ([0-9]+): ([^\n]+)', line)
         goal = int(gm.group(1))
-        sdgir[goal] = (gm.group(goal), [])
+        sdgir[goal] = (gm.group(2), [])
         file.readline()
         while line:
             tm = re.match(r'[0-9]+.[0-9]+: ([^\n]+)', line)
@@ -31,7 +32,15 @@ def preload():
                 sdgir[goal][1].append(tm.group(1))
             line = file.readline()
         file.close()
-    print(sdgir[goal][1])
+    for entry in os.listdir('./data/dataset'):
+        file = open('./data/dataset/' + entry)
+        goal = int(entry[0:2])
+        line = file.readline()
+        tpairs[goal] = []
+        while line:
+            tpairs[goal].append((line.split()[0], line.split()[1]))
+            line = file.readline()
+        file.close()
 
 # creating feature extractor based on verb-object pair overlap
 def feature_extractor(goal, text):
@@ -62,13 +71,6 @@ def feature_extractor(goal, text):
 
 # defining and training classifier
 def init_classifiers():
-    # initialization of the storage of verb-object pairs for targets
-    tpairs.clear()
-    for goal in sdgir.keys():
-        tpairs[goal] = []
-        print("generating tpairs for goal",goal,"...")
-        for target in sdgir[goal][1]:
-            tpairs[goal] += vrbobj_pairs("We want to " + target.lower())
     # defining classifier
     labeled_sent = [("We want to " + target.lower(), goal) for goal in sdgir.keys() for target in sdgir[goal][1]]
     random.shuffle(labeled_sent)
@@ -77,13 +79,13 @@ def init_classifiers():
     for goal in sdgir.keys():
         featuresets = [(feature_extractor(goal, e), g == goal) for (e, g) in labeled_sent]
         print('Feature sets generated for goal {}'.format(goal))
-        train_set = featuresets[:70]
+        train_set = featuresets
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
-        #print(featuresets)
 
-def check_sdg(text):   
-    tdict.clear() 
+def check_sdg(text):
     for goal in sdgir.keys():
         ans = classifier[goal].classify(feature_extractor(goal, text))
         if ans:
-            print("{}: {}".format(goal, sdgir[goal][0]))
+            print("+ {}: {}".format(goal, sdgir[goal][0]))
+        else:
+            print("- {}: {}".format(goal, sdgir[goal][0]))
