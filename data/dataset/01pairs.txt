@@ -42,3 +42,4 @@ reduce poverty 1
 reduce proportion 1
 report country 1
 support investment 1
+spill oil -1

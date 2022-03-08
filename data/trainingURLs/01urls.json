@@ -1,17 +1,23 @@
 [
     {
-        "type":"T",
+        "type":"T-positive",
         "text": "End poverty in all its forms everywhere. By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day. By 2030, reduce at least by half the proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions. Implement nationally appropriate social protection systems and measures for all, including floors, and by 2030 achieve substantial coverage of the poor and the vulnerable. By 2030, ensure that all men and women, in particular the poor and the vulnerable, have equal rights to economic resources, as well as access to basic services, ownership and control over land and other forms of property, inheritance, natural resources, appropriate new technology and financial services, including microfinance. By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters. Ensure significant mobilization of resources from a variety of sources, including through enhanced development cooperation, in order to provide adequate and predictable means for developing countries, in particular least developed countries, to implement programmes and policies to end poverty in all its dimensions. Create sound policy frameworks at the national, regional and international levels, based on pro-poor and gender-sensitive development strategies, to support accelerated investment in poverty eradication actions.", 
         "url": "None"
     },
     {
-        "type": "T",
+        "type": "T-positive",
         "text": "Social protection measures are fundamental to preventing and reducing poverty across the life cycle. Nevertheless, by 2020, only 46.9 per cent of the global population were effectively covered by at least one social protection cash benefit, leaving as many as 4 billion people without a social safety net. The COVID-19 crisis has demonstrated the importance of social protection systems to protect people’s health, jobs and incomes, as well as the consequences of high coverage gaps. As a result, many new social protection measures were introduced in 2020: between 1 February and 31 December, the Governments of 209 countries and territories announced more than 1,600 such measures in response to the crisis, but almost all (94.7 per cent) were short term in nature.",
         "url": "https://sdgs.un.org/goals"
     },
     {
-        "type": "T",
+        "type": "T-positive",
         "text": "The adoption and implementation of robust multi-hazard disaster risk reduction strategies, which incorporate biological risks such as COVID-19, are critical. As of April 2020, 120 countries reported that they had developed and adopted national and/or local disaster risk reduction strategies, up from 48 during the Sendai Framework’s nascent period in 2015.",
         "url": "https://sdgs.un.org/goals"
+    },
+
+    {
+        "type": "T-negative",
+        "text": "It's always good to spill oil.",
+        "url": ""
     }
 ]

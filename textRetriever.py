@@ -45,12 +45,15 @@ def retrieve():
             print("Error during URL list analysis")
     return texts
 
-def retrieveTrainigTextsFor(sdgNum):
+def retrieveTrainigTextsFor(sdgNum, isPositive):
     elements = fillTrainingURLs(sdgNum)
     texts = []
     for element in elements:
         if( (element["type"] == "F" or element["type"] == "S") and  element["url"] != ""):
             texts.append(options[element["type"]](element["url"]))
         else:
-            texts.append(element["text"])
+            if(isPositive == 1 and element["type"] == "T-positive"):
+                texts.append(element["text"])
+            if(isPositive == 0 and element["type"] == "T-negative"):
+                texts.append(element["text"])
     return texts

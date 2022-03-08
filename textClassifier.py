@@ -22,14 +22,17 @@ def orderTuples(allPairs):
     tmp.sort(key=lambda x:x[0])
     return tmp
 
-def writePairsForSDG(sdg, pairs):
+def writePairsForSDG(sdg, positivePairs, negativePairs):
     stringnum = ""
     if(sdg < 10):
         stringnum = "0"
     stringnum = stringnum + str(sdg) 
     with open('./data/dataset/'+stringnum+'pairs.txt','w') as f:
-        for tup in pairs:
-            text = str(str(tup[0])+" "+str(tup[1])+" "+str(tup[2])+"\n")
+        for tup in positivePairs:
+            text = str(str(tup[0])+" "+str(tup[1])+" "+str(getWeightFor(str(tup[0]),str(tup[1]),1))+"\n")
+            f.write(text)
+        for tup in negativePairs:
+            text = str(str(tup[0])+" "+str(tup[1])+" "+str(getWeightFor(str(tup[0]),str(tup[1]),0))+"\n")
             f.write(text)
         
 
@@ -56,7 +59,7 @@ def extrapolatePairs(words):
     for noun in nouns:
         verb = goBackToVerb(noun, words)
         if(verb != -1 and validate(verb.lemma, noun.lemma)):
-            pairs.append((verb.lemma, noun.lemma,getWeightFor(verb.lemma,noun.lemma)))
+            pairs.append((verb.lemma, noun.lemma,0))
     return pairs
 
 def goBackToVerb(word, words):
@@ -86,7 +89,10 @@ def validate(verb,noun):
             return 0
     return 1
 
-def getWeightFor(verb,noun):
-    return 1
+def getWeightFor(verb,noun, isPositive):
+    if(isPositive == 1):
+        return 1
+    else:
+        return -1
 
 

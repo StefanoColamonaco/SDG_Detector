@@ -14,10 +14,13 @@ generateDataset = 0
 if __name__ == "__main__":
     if(generateDataset == 1):
         for sdg in range(1,18):
-            trainingTexts = retrieveTrainigTextsFor(sdg)
-            allPairs = generateDatasetFor(sdg, trainingTexts)
-            pairs = orderTuples(allPairs)
-            writePairsForSDG(sdg, pairs)
+            trainingPositiveTexts = retrieveTrainigTextsFor(sdg, 1)
+            trainingNegativeTexts = retrieveTrainigTextsFor(sdg, 0)
+            allPositivePairs = generateDatasetFor(sdg, trainingPositiveTexts)
+            allNegativePairs = generateDatasetFor(sdg, trainingNegativeTexts)
+            positivePairs = orderTuples(allPositivePairs)
+            negativePairs = orderTuples(allNegativePairs)
+            writePairsForSDG(sdg, positivePairs, negativePairs)
     texts = retrieve()
     initialize()
     for text in texts:
