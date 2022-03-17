@@ -83,9 +83,13 @@ def init_classifiers():
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
 
 def check_sdg(text):
+    res = [False for i in range(17)]
     for goal in sdgir.keys():
         ans = classifier[goal].classify(feature_extractor(goal, text))
         if ans:
-            print("+ {}: {}".format(goal, sdgir[goal][0]))
+            res[goal - 1] = True
+    for goal in range(1, 18):
+        if res[goal - 1]:
+            print("[\033[92m\u2713\033[0m] {}: {}".format(goal, sdgir[goal][0]))
         else:
-            print("- {}: {}".format(goal, sdgir[goal][0]))
+            print("[\033[91m\u2717\033[0m] {}: {}".format(goal, sdgir[goal][0]))

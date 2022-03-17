@@ -1,7 +1,0 @@
-#!/bin/bash
-
-mkdir build
-cd build
-wget https://nlp.stanford.edu/software/stanford-corenlp-latest.zip
-unzip stanford-corenlp-latest.zip
-rm stanford-corenlp-latest.zip
