@@ -1,7 +1,7 @@
 from textRetriever import retrieve, retrieveTrainigTextsFor
 from analysis import initialize,check_sdg
 from textClassifier import generateDatasetFor, writePairsForSDG, orderTuples
-from automaticTrainingDocumentRetrieve import trainingDocumentsRetrieve
+from automaticTrainingDocumentRetrieve import trainingDocumentsRetrieve # getFragmentsFromDocument
 import stanza
 
 import nltk
@@ -19,11 +19,14 @@ if __name__ == "__main__":
             count = automaticTrainingDocumentRetrieve()
             for i in range(1,count+1): #per ogni documento
                 print("deb")
-                # split del documento
-                # per ogni frammento
-                    # analisi del frammento e ritorno con array degli sdg validi per frammento
-                    # generazione coppie vrb_obj
-                    # concatenazione nei file degli sdg relativi
+                # split del documento fragments = getFragmentsFromDocument(i)
+                # per ogni frammento  for fragment in fragments:
+                    # analisi del frammento e ritorno con array degli sdg validi per frammento sdgs = check_sdg(fragment)
+                    # generazione coppie vrb_obj   pairs = generateDatasetFor(0, [fragment]):
+                    # concatenazione nei file degli sdg relativi for sdg in sdgs:
+                    # if (sdg == 1):
+                    # overwritePairsForSDG(sdg, pairs, [])
+
 
         else:
             for sdg in range(1,18):

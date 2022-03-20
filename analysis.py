@@ -93,3 +93,4 @@ def check_sdg(text):
             print("[\033[92m\u2713\033[0m] {}: {}".format(goal, sdgir[goal][0]))
         else:
             print("[\033[91m\u2717\033[0m] {}: {}".format(goal, sdgir[goal][0]))
+    return res
