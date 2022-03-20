@@ -35,6 +35,22 @@ def writePairsForSDG(sdg, positivePairs, negativePairs):
             text = str(str(tup[0])+" "+str(tup[1])+" "+str(getWeightFor(str(tup[0]),str(tup[1]),0))+"\n")
             f.write(text)
         
+def overwritePairsForSDG(sdg, positivePairs, negativePairs):
+    stringnum = ""
+    if(sdg < 10):
+        stringnum = "0"
+    stringnum = stringnum + str(sdg)
+    oldPositive = []
+    oldNegative = []
+    with open('./data/dataset/'+stringnum+'pairs.txt','r') as f:
+        line = f.readline()
+        while line:
+            if( line.find("-1") != -1 ):
+                oldNegative.append( (line.split()[0],line.split()[1]) )
+            else:
+                oldPositive.append( (line.split()[0],line.split()[1]) )
+            line = f.readline()
+    writePairsForSDG(sdg, oldPositive + positivePairs, oldNegative + negativePairs)
 
 def generateDatasetFor(sdgNum, texts):
     allPairs = []
