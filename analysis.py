@@ -1,6 +1,7 @@
 import os, nltk, re, random, time
 from nltk.parse import CoreNLPDependencyParser
 from nltk.corpus import wordnet as wn
+import json
 
 from textClassifier import vrbobj_pairs
 
@@ -8,12 +9,14 @@ from textClassifier import vrbobj_pairs
 # goal regex: Goal ([0-9]+): ([a-zA-Z0-9-,.:! ]+) /// g1 = goal number /// g2 = goal text
 # target regex: [0-9]+.[0-9]+: ([a-zA-Z0-9-,.:! ]+) /// g1 = target text
 sdgir = dict() # SDG info raw list
+dataset = dict() # dictionary of data useful for training and testing classifiers
 classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
 tpairs = dict() # the storage of verb-object pairs for targets 
 tdict = {} # the storage of verb-object pairs for sentences in text
 
 def initialize():
     preload()
+    load_data()
     init_classifiers()
     #printGeneratedCouples()
     print("\n INITIALIZATION COMPLETED \n")
@@ -42,6 +45,17 @@ def preload():
             line = file.readline()
         file.close()
 
+def load_data():
+    for dirent in os.listdir('./data/trainingURLs'):
+        file = open('./data/trainingURLs/' + dirent)
+        goal = int(dirent[0:2])
+        data = json.load(file)
+        dataset[goal] = []
+        for entry in data:
+            dataset[goal].append((entry["text"], entry["type"] == "T-positive"))
+        random.shuffle(dataset[goal])
+        file.close()
+        
 # creating feature extractor based on verb-object pair overlap
 def feature_extractor(goal, text):
     features = {} # features
@@ -52,6 +66,7 @@ def feature_extractor(goal, text):
     else:
         tdict[text] = pairs = vrbobj_pairs(text)
     for target in tpairs[goal]:
+        features['contains(%s)' % str(target)] = False
         for p in pairs:
             vflag, oflag = False, False
             for ss in wn.synsets(target[0]):
@@ -72,13 +87,10 @@ def feature_extractor(goal, text):
 # defining and training classifier
 def init_classifiers():
     # defining classifier
-    labeled_sent = [("We want to " + target.lower(), goal) for goal in sdgir.keys() for target in sdgir[goal][1]]
-    random.shuffle(labeled_sent)
     tdict.clear()
-    print("generating feature sets...")
+    print("training the classifiers...")
     for goal in sdgir.keys():
-        featuresets = [(feature_extractor(goal, e), g == goal) for (e, g) in labeled_sent]
-        print('Feature sets generated for goal {}'.format(goal))
+        featuresets = [(feature_extractor(goal, e), g) for (e, g) in dataset[goal]]
         train_set = featuresets
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
 
