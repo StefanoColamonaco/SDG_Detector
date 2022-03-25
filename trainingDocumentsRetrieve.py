@@ -1,7 +1,44 @@
 import json
+import nltk
+from googlesearch import search
+from textRetriever import site 
+
+NUMSENTENCESPERPARAGRAPH = 5
+DOCSPERSDG = 1
+SDGOBJECTIVES = [ "No poverty", "Zero hunger", "Good health and well-being", "Quality education", "Gender equality", "Clean water and sanitation", "Affordable and clean energy", "Decent work and economic growth", "Industry, innovation and infrastructure", "Reduced inequalities", "Sustainable cities and communities", "Responsible consumption and production", "Climate action", "Life below water", "Life on land", "Peace, justice and strong institutions", "Partnerships for the sustainable goals" ]
+TRAININGCOMPANIES = ["Google", "Microsoft", "Apple", "Amazon" ]
 
 def automaticTrainingDocumentRetrieve():
-    return 1
+    count = 0
+    for objective in SDGOBJECTIVES:
+        for company in TRAININGCOMPANIES:
+            query = objective+" "+"at "+company
+            for url in search(query, num_results=DOCSPERSDG):
+                print(url)
+                text = site(url)
+                data = splitTextIntoParagraphs(text)
+                print(data)
+                path = "./data/automatedTrainingURLs/documents/" 
+                filename = path+"document"+str(count+1)+".json"
+                with open(filename, 'w') as f:
+                    json.dump(data, f, indent=2)
+                count = count + 1
+                print("ok")
+    return count
+
+def splitTextIntoParagraphs(text):
+    data = []
+    sentences = nltk.sent_tokenize(text)
+    paragraph = ""
+    for i in range(0,len(sentences)):
+        paragraph = paragraph + sentences[i] + " "
+        if((i+1)&NUMSENTENCESPERPARAGRAPH == 0):
+            data.append(paragraph)
+            paragraph = ""
+    return data
+    
+
+
 
 def getFragmentsFromDocument(docNumber):
     file = open('./data/automatedTrainingURLs/documents/document' + str(docNumber) + ".json" )

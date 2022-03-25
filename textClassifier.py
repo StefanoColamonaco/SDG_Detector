@@ -22,7 +22,7 @@ def orderTuples(allPairs):
     tmp.sort(key=lambda x:x[0])
     return tmp
 
-def writePairsForSDG(sdg, positivePairs, negativePairs):
+def writePairsForSDG(sdg, positivePairs, negativePairs): #TODO: implementare eliminazione dei duplicati
     stringnum = ""
     if(sdg < 10):
         stringnum = "0"

@@ -3,12 +3,16 @@
 
     ],
     "blacklistedNouns":[
-
+        
     ],
     "blacklistedCouples":[
         {
             "verb": "eradicate",
             "noun": "people"
+        },
+        {
+            "verb": "make",
+            "noun": "effect"
         }
     ]
 }

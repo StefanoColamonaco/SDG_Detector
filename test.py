@@ -10,15 +10,15 @@ nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('omw-1.4')
 
-generateDataset = 0
-recursiveGeneration = 0
+generateDataset = 1
+recursiveGeneration = 1
 
 if __name__ == "__main__":
     if( generateDataset == 1 ):
         if( recursiveGeneration == 1 ):
-            initialize()
+            #initialize()
             count = automaticTrainingDocumentRetrieve()
-            for i in range(1,count+1):                  # per ogni documento
+            for i in range(1,1):    #count+1              # per ogni documento
                 fragments = getFragmentsFromDocument(i) # split del documento 
                 for fragment in fragments:              # per ogni frammento  
                     sdgs = check_sdg(fragment)          # analisi del frammento e ritorno con array degli sdg validi per frammento
