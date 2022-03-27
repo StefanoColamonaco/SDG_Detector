@@ -1,6 +1,6 @@
 from textRetriever import retrieve, retrieveTrainigTextsFor
 from analysis import initialize,check_sdg
-from textClassifier import generateDatasetFor, writePairsForSDG, orderTuples, overwritePairsForSDG
+from textClassifier import generateDatasetFor, writePairsForSDG, mergeAndOrderTuples, overwritePairsForSDG, removeDuplicatesFromOrderedTuples
 from trainingDocumentsRetrieve import getFragmentsFromDocument, automaticTrainingDocumentRetrieve
 import stanza
 import nltk
@@ -18,7 +18,7 @@ recursiveGeneration = 0
 # if 1: Dataset generation will use recursive generation tecnique 
 # if 0: Will use the first implementation of dataset generation from hand-written phrases
 
-newAnalysis = 0    # Please Fil keep it on zero
+newAnalysis = 0 # IMPORTANT !! Please Fil keep it on zero
 # if 1: Will generate a new set of documents from which to derive training data
 # if 0: Will use the current set of documents in data/automatedTrainingURLs/documents/
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
                 for fragment in fragments:              # per ogni frammento  
                     sdgs = check_sdg(fragment)          # analisi del frammento e ritorno con array degli sdg validi per frammento
                     pairs = generateDatasetFor(0, [fragment])  # generazione coppie vrb_obj
-                    pairs = orderTuples(pairs)
+                    pairs = removeDuplicatesFromOrderedTuples(mergeAndOrderTuples(pairs))
                     print(pairs)
                     for i in range(1,18):                    # concatenazione nei file degli sdg relativi 
                         if (sdgs[i-1] == 1):
@@ -47,8 +47,8 @@ if __name__ == "__main__":
                 trainingNegativeTexts = retrieveTrainigTextsFor(sdg, 0)
                 allPositivePairs = generateDatasetFor(sdg, trainingPositiveTexts)
                 allNegativePairs = generateDatasetFor(sdg, trainingNegativeTexts)
-                positivePairs = orderTuples(allPositivePairs)
-                negativePairs = orderTuples(allNegativePairs)
+                positivePairs = removeDuplicatesFromOrderedTuples(mergeAndOrderTuples(allPositivePairs))
+                negativePairs = removeDuplicatesFromOrderedTuples(mergeAndOrderTuples(allNegativePairs))
                 writePairsForSDG(sdg, positivePairs, negativePairs)
     texts = retrieve()
     initialize()

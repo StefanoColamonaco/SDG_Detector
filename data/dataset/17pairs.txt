@@ -9,16 +9,6 @@ build initiative 1
 complement partnership 1
 complement product 1
 develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
-develop country 1
 develop measurement 1
 develop source 1
 develop term 1
@@ -32,7 +22,6 @@ enhance coherence 1
 enhance cooperation 1
 enhance knowledge 1
 enhance stability 1
-enhance support 1
 enhance support 1
 enhance use 1
 ensure rule 1

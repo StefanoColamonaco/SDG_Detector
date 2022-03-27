@@ -14,10 +14,20 @@ with open('./data/options/blacklist.json') as f:
     blacklistedNouns = blObj["blacklistedNouns"]
     blacklistedCouples = blObj["blacklistedCouples"]
 
-def orderTuples(allPairs):
+def removeDuplicatesFromOrderedTuples(orderedPairs):
     tmp = []
-    for pairs in allPairs:
-        tmp = tmp + pairs
+    last = ("","",0)
+    for pair in orderedPairs:
+        if(pair != last):
+            tmp.append(pair)
+            last = pair
+    return tmp
+
+
+def mergeAndOrderTuples(allPairs):
+    tmp = []
+    for pair in allPairs:
+        tmp = tmp + pair
     tmp.sort(key=lambda x:x[1])
     tmp.sort(key=lambda x:x[0])
     return tmp

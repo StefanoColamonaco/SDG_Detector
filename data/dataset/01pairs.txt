@@ -27,7 +27,6 @@ demonstrate crisis 1
 demonstrate importance 1
 develop community 1
 develop country 1
-develop country 1
 develop knowledge 1
 develop period 1
 develop strategy 1
@@ -39,7 +38,6 @@ enable product 1
 end dimension 1
 end form 1
 end hunger 1
-end poverty 1
 end poverty 1
 end way 1
 enhance framework 1
@@ -60,12 +58,10 @@ introduce result 1
 invest business 1
 invest capital 1
 invest company 1
-invest company 1
 leave people 1
 live day 1
 live definition 1
 live dimension 1
-live poverty 1
 live poverty 1
 make difference 1
 measure people 1
@@ -77,7 +73,6 @@ reduce cycle 1
 reduce event 1
 reduce exposure 1
 reduce order 1
-reduce poverty 1
 reduce poverty 1
 reduce proportion 1
 report country 1

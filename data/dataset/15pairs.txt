@@ -12,11 +12,9 @@ enhance capacity 1
 enhance order 1
 enhance support 1
 ensure conservation 1
-ensure conservation 1
 finance management 1
 halt deforestation 1
 halt degradation 1
-halt loss 1
 halt loss 1
 increase afforestation 1
 increase capacity 1
@@ -40,6 +38,5 @@ reduce degradation 1
 reduce impact 1
 restore forest 1
 restore land 1
-take action 1
 take action 1
 use biodiversity 1

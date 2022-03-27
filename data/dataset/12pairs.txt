@@ -1,10 +1,7 @@
 achieve accordance 1
 achieve management 1
-achieve management 1
 adopt practice 1
 create job 1
-develop country 1
-develop country 1
 develop country 1
 encourage company 1
 encourage consumption 1
@@ -16,7 +13,6 @@ implement Framework 1
 implement tool 1
 integrate cycle 1
 integrate information 1
-minimize impact 1
 minimize impact 1
 minimize order 1
 monitor impact 1
@@ -35,7 +31,6 @@ remove accordance 1
 remove distortion 1
 restructure taxation 1
 strengthen capacity 1
-take account 1
 take account 1
 take action 1
 take country 1

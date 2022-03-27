@@ -1,12 +1,9 @@
 build institution 1
 combat form 1
 develop country 1
-develop country 1
-develop institution 1
 develop institution 1
 develop level 1
 enforce law 1
-ensure access 1
 ensure access 1
 ensure decision 1
 make level 1
@@ -20,7 +17,6 @@ provide access 1
 provide identity 1
 reduce corruption 1
 reduce flow 1
-reduce form 1
 reduce form 1
 strengthen capacity 1
 strengthen institution 1
