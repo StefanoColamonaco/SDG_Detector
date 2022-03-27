@@ -1,0 +1,716 @@
+[
+  {
+    "document": "document1",
+    "SDG": "No poverty",
+    "Company": "Google",
+    "site": "https://borgenproject.org/googles-contribution-to-fighting-extreme-poverty/"
+  },
+  {
+    "document": "document2",
+    "SDG": "No poverty",
+    "Company": "Google",
+    "site": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
+  },
+  {
+    "document": "document3",
+    "SDG": "No poverty",
+    "Company": "Google",
+    "site": "https://artsandculture.google.com/asset/goal-1-no-poverty/pgFIsvfAZbXMtA?hl=en"
+  },
+  {
+    "document": "document4",
+    "SDG": "No poverty",
+    "Company": "Microsoft",
+    "site": "https://blogs.microsoft.com/on-the-issues/2014/04/03/microsoft-partners-with-usaid-to-help-end-extreme-poverty-by-2030/"
+  },
+  {
+    "document": "document5",
+    "SDG": "No poverty",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/us/podcast/8-no-poverty/id1543058958?i=1000534807023"
+  },
+  {
+    "document": "document6",
+    "SDG": "No poverty",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Poverty-Encyclopedia-Sustainable-Development-Goals/dp/3319957139"
+  },
+  {
+    "document": "document7",
+    "SDG": "Zero hunger",
+    "Company": "Google",
+    "site": "https://artsandculture.google.com/story/zero-hunger-mural-united-nations/JAXxGlDTbZmJLQ?hl=en"
+  },
+  {
+    "document": "document8",
+    "SDG": "Zero hunger",
+    "Company": "Google",
+    "site": "https://www.google.com/nonprofits/success-stories/action-against-hunger/"
+  },
+  {
+    "document": "document9",
+    "SDG": "Zero hunger",
+    "Company": "Google",
+    "site": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
+  },
+  {
+    "document": "document10",
+    "SDG": "Zero hunger",
+    "Company": "Microsoft",
+    "site": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4GSkV"
+  },
+  {
+    "document": "document11",
+    "SDG": "Zero hunger",
+    "Company": "Microsoft",
+    "site": "https://automate.video/zero_hunger_cf55fb4e"
+  },
+  {
+    "document": "document12",
+    "SDG": "Zero hunger",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/us/podcast/target-zero-hunger/id1106944351"
+  },
+  {
+    "document": "document13",
+    "SDG": "Zero hunger",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/SDG2-Nutrition-Sustainable-Agriculture-Development-ebook/dp/B08DNPJ4X9"
+  },
+  {
+    "document": "document14",
+    "SDG": "Good health and well-being",
+    "Company": "Google",
+    "site": "https://talksat.withgoogle.com/explore/categories/health-wellbeing"
+  },
+  {
+    "document": "document15",
+    "SDG": "Good health and well-being",
+    "Company": "Google",
+    "site": "https://careers.google.com/benefits/"
+  },
+  {
+    "document": "document16",
+    "SDG": "Good health and well-being",
+    "Company": "Google",
+    "site": "https://wellbeing.google/"
+  },
+  {
+    "document": "document17",
+    "SDG": "Good health and well-being",
+    "Company": "Microsoft",
+    "site": "https://news.microsoft.com/download/archived/presskits/health/docs/cloudhealth.pdf"
+  },
+  {
+    "document": "document18",
+    "SDG": "Good health and well-being",
+    "Company": "Apple",
+    "site": "https://www.apple.com/watch/corporate-wellness/"
+  },
+  {
+    "document": "document19",
+    "SDG": "Good health and well-being",
+    "Company": "Amazon",
+    "site": "https://sustainability.aboutamazon.com/people/employees/health-safety"
+  },
+  {
+    "document": "document20",
+    "SDG": "Good health and well-being",
+    "Company": "Amazon",
+    "site": "https://www.unleash.ai/wellbeing/amazon-warehouse-health-new-intiative-workingwell/"
+  },
+  {
+    "document": "document21",
+    "SDG": "Quality education",
+    "Company": "Google",
+    "site": "https://edu.google.com/"
+  },
+  {
+    "document": "document22",
+    "SDG": "Quality education",
+    "Company": "Google",
+    "site": "https://books.google.com/books/about/Quality_Education.html?id=TggFjMmc36EC"
+  },
+  {
+    "document": "document23",
+    "SDG": "Quality education",
+    "Company": "Microsoft",
+    "site": "https://news.microsoft.com/apac/2021/05/05/microsoft-unveils-immersive-education-solutions-to-inspire-educators-in-reimagining-learning-experiences/"
+  },
+  {
+    "document": "document24",
+    "SDG": "Quality education",
+    "Company": "Apple",
+    "site": "https://www.apple.com/education/docs/Apple-10ReasonsforAppleinEdu021909.pdf"
+  },
+  {
+    "document": "document25",
+    "SDG": "Quality education",
+    "Company": "Apple",
+    "site": "https://www.apple.com/education/docs/Apple-10ReasonsforAppleinEdu021909.pdf"
+  },
+  {
+    "document": "document26",
+    "SDG": "Quality education",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Quality-Education-Matters-Structure-Sustain/dp/0998209201"
+  },
+  {
+    "document": "document27",
+    "SDG": "Gender equality",
+    "Company": "Google",
+    "site": "https://www.forbes.com/sites/ruthumoh/2020/05/05/google-diversity-report-shows-little-progress-for-women-and-people-of-color/"
+  },
+  {
+    "document": "document28",
+    "SDG": "Gender equality",
+    "Company": "Google",
+    "site": "https://www.comparably.com/companies/google/studies/gender-equality"
+  },
+  {
+    "document": "document29",
+    "SDG": "Gender equality",
+    "Company": "Microsoft",
+    "site": "https://news.microsoft.com/en-au/features/microsoft-partners-champion-gender-equality/"
+  },
+  {
+    "document": "document30",
+    "SDG": "Gender equality",
+    "Company": "Microsoft",
+    "site": "https://www.comparably.com/companies/microsoft/studies/gender-equality"
+  },
+  {
+    "document": "document31",
+    "SDG": "Gender equality",
+    "Company": "Apple",
+    "site": "https://www.apple.com/diversity/"
+  },
+  {
+    "document": "document32",
+    "SDG": "Gender equality",
+    "Company": "Amazon",
+    "site": "https://www.aboutamazon.com/news/policy-news-views/amazon-further-strengthens-commitment-to-gender-equity"
+  },
+  {
+    "document": "document33",
+    "SDG": "Clean water and sanitation",
+    "Company": "Google",
+    "site": "https://artsandculture.google.com/asset/goal-6-clean-water-sanitation/kgEBLWWmuWiz_A"
+  },
+  {
+    "document": "document34",
+    "SDG": "Clean water and sanitation",
+    "Company": "Google",
+    "site": "https://www.google.com/nonprofits/success-stories/charity-water/"
+  },
+  {
+    "document": "document35",
+    "SDG": "Clean water and sanitation",
+    "Company": "Microsoft",
+    "site": "https://blogs.microsoft.com/blog/2020/09/21/microsoft-will-replenish-more-water-than-it-consumes-by-2030/"
+  },
+  {
+    "document": "document36",
+    "SDG": "Clean water and sanitation",
+    "Company": "Microsoft",
+    "site": "https://www.edie.net/news/4/Microsoft-to-become-water-positive-by-2030/"
+  },
+  {
+    "document": "document37",
+    "SDG": "Clean water and sanitation",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/by/podcast/clean-water-and-sanitation/id1466391655?i=1000440303014"
+  },
+  {
+    "document": "document38",
+    "SDG": "Clean water and sanitation",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Clean-Water-Sanitation-Sustainable-Development/dp/1789731062"
+  },
+  {
+    "document": "document39",
+    "SDG": "Clean water and sanitation",
+    "Company": "Amazon",
+    "site": "https://www.amazon.it/SDG6-Sanitation-Balancing-Sustainable-Development-ebook/dp/B07XY59R3Z"
+  },
+  {
+    "document": "document40",
+    "SDG": "Affordable and clean energy",
+    "Company": "Google",
+    "site": "https://www.google.com/about/datacenters/cleanenergy/"
+  },
+  {
+    "document": "document41",
+    "SDG": "Affordable and clean energy",
+    "Company": "Google",
+    "site": "https://cloud.google.com/blog/topics/sustainability/google-achieves-four-consecutive-years-of-100-percent-renewable-energy"
+  },
+  {
+    "document": "document42",
+    "SDG": "Affordable and clean energy",
+    "Company": "Google",
+    "site": "https://www.greenbiz.com/article/how-google-plans-use-clean-energy-all-day-every-day"
+  },
+  {
+    "document": "document43",
+    "SDG": "Affordable and clean energy",
+    "Company": "Microsoft",
+    "site": "https://www.microsoft.com/en-us/industry/energy/transition-to-clean-energy"
+  },
+  {
+    "document": "document44",
+    "SDG": "Affordable and clean energy",
+    "Company": "Apple",
+    "site": "https://www.apple.com/newsroom/2021/03/apple-powers-ahead-in-new-renewable-energy-solutions-with-over-110-suppliers/"
+  },
+  {
+    "document": "document45",
+    "SDG": "Affordable and clean energy",
+    "Company": "Amazon",
+    "site": "https://www.amazon.it/Affordable-Clean-Energy-Walter-Filho/dp/3319958631"
+  },
+  {
+    "document": "document46",
+    "SDG": "Decent work and economic growth",
+    "Company": "Google",
+    "site": "https://books.google.com/books/about/Decent_Work_and_Economic_Growth.html?id=czwpuAEACAAJ"
+  },
+  {
+    "document": "document47",
+    "SDG": "Decent work and economic growth",
+    "Company": "Google",
+    "site": "https://www.globalgoals.org/goals/8-decent-work-and-economic-growth/"
+  },
+  {
+    "document": "document48",
+    "SDG": "Decent work and economic growth",
+    "Company": "Google",
+    "site": "https://economicimpact.google.com/"
+  },
+  {
+    "document": "document49",
+    "SDG": "Decent work and economic growth",
+    "Company": "Microsoft",
+    "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
+  },
+  {
+    "document": "document50",
+    "SDG": "Decent work and economic growth",
+    "Company": "Microsoft",
+    "site": "http://www.businessfor2030.org/blog/2021/12/7/microsoft-bolsters-efforts-to-expand-decent-work-opportunities"
+  },
+  {
+    "document": "document51",
+    "SDG": "Decent work and economic growth",
+    "Company": "Apple",
+    "site": "https://www.apple.com/newsroom/2021/04/apple-commits-430-billion-in-us-investments-over-five-years/"
+  },
+  {
+    "document": "document52",
+    "SDG": "Decent work and economic growth",
+    "Company": "Apple",
+    "site": "https://www.inc.com/jason-aten/apple-just-announced-its-responsible-for-24-million-us-jobs-thats-not-even-most-important-part.html"
+  },
+  {
+    "document": "document53",
+    "SDG": "Decent work and economic growth",
+    "Company": "Apple",
+    "site": "https://applevisionltd.com/apple-vision-sustainability/"
+  },
+  {
+    "document": "document54",
+    "SDG": "Decent work and economic growth",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Decent-Economic-Encyclopedia-Sustainable-Development/dp/3319958666"
+  },
+  {
+    "document": "document55",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Google",
+    "site": "https://books.google.com/books/about/Industry_Innovation_and_Infrastructure.html?id=jHVduAEACAAJ"
+  },
+  {
+    "document": "document56",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Google",
+    "site": "https://www.google.com/about/datacenters/innovations/"
+  },
+  {
+    "document": "document57",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Google",
+    "site": "https://link.springer.com/referencework/10.1007/978-3-319-71059-4"
+  },
+  {
+    "document": "document58",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Microsoft",
+    "site": "https://azure.microsoft.com/it-it/blog/azure-iot-drives-next-wave-innovation-in-infrastructure-and-energy/"
+  },
+  {
+    "document": "document59",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Apple",
+    "site": "https://www.sustainapple.it/en/sdgs/label9/"
+  },
+  {
+    "document": "document60",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Apple",
+    "site": "https://jobs.apple.com/it-it/details/200326734/infrastructure-program-manager"
+  },
+  {
+    "document": "document61",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Innovation-Infrastructure-Encyclopedia-Sustainable-Development/dp/3319958720"
+  },
+  {
+    "document": "document62",
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Amazon",
+    "site": "https://sustainability.aboutamazon.com/governance"
+  },
+  {
+    "document": "document63",
+    "SDG": "Reduced inequalities",
+    "Company": "Google",
+    "site": "https://artsandculture.google.com/entity/sustainable-development-goal-10-reduced-inequalities/g11gbmj_1qj?hl=en"
+  },
+  {
+    "document": "document64",
+    "SDG": "Reduced inequalities",
+    "Company": "Google",
+    "site": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
+  },
+  {
+    "document": "document65",
+    "SDG": "Reduced inequalities",
+    "Company": "Google",
+    "site": "https://gdg.community.dev/events/details/google-gdg-tucson-presents-sustainability-series-10-reduced-inequalities/"
+  },
+  {
+    "document": "document66",
+    "SDG": "Reduced inequalities",
+    "Company": "Microsoft",
+    "site": "https://news.microsoft.com/en-xm/2020/11/02/the-race-against-economic-inequality-within-emerging-markets-a-case-for-smes/"
+  },
+  {
+    "document": "document67",
+    "SDG": "Reduced inequalities",
+    "Company": "Microsoft",
+    "site": "https://microbit.org/projects/do-your-bit/global-goals/reduced-inequalities/"
+  },
+  {
+    "document": "document68",
+    "SDG": "Reduced inequalities",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/us/podcast/4-reduced-inequalities/id1543058958?i=1000510702301"
+  },
+  {
+    "document": "document69",
+    "SDG": "Reduced inequalities",
+    "Company": "Apple",
+    "site": "https://books.apple.com/us/book/sdg10-reduce-inequality-within-and-among-countries/id1527406209"
+  },
+  {
+    "document": "document70",
+    "SDG": "Reduced inequalities",
+    "Company": "Apple",
+    "site": "https://www.marketwatch.com/story/ceo-cook-on-apples-role-in-tackling-inequality-i-do-believe-optimistically-this-is-one-of-those-moments-that-we-could-make-significant-progress-2020-06-22"
+  },
+  {
+    "document": "document71",
+    "SDG": "Reduced inequalities",
+    "Company": "Amazon",
+    "site": "https://www.amazon.it/Reduced-Inequalities-Walter-Leal-Filho/dp/331995881X"
+  },
+  {
+    "document": "document72",
+    "SDG": "Sustainable cities and communities",
+    "Company": "Google",
+    "site": "https://books.google.com/books/about/Sustainable_Cities_and_Communities.html?id=GkYYyAEACAAJ"
+  },
+  {
+    "document": "document73",
+    "SDG": "Sustainable cities and communities",
+    "Company": "Google",
+    "site": "https://sites.google.com/a/gsbi.org/gvc1610/sustainable-cities-and-communities"
+  },
+  {
+    "document": "document74",
+    "SDG": "Sustainable cities and communities",
+    "Company": "Microsoft",
+    "site": "https://techcommunity.microsoft.com/t5/green-tech-blog/a-smart-city-is-a-sustainable-city/ba-p/3040537"
+  },
+  {
+    "document": "document75",
+    "SDG": "Sustainable cities and communities",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/it/podcast/green-talking/id1528726080"
+  },
+  {
+    "document": "document76",
+    "SDG": "Sustainable cities and communities",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Sustainable-Cities-Communities-Encyclopedia-Development/dp/3319957163"
+  },
+  {
+    "document": "document77",
+    "SDG": "Responsible consumption and production",
+    "Company": "Google",
+    "site": "https://books.google.com/books/about/Responsible_Consumption_and_Production.html?id=qj83uAEACAAJ"
+  },
+  {
+    "document": "document78",
+    "SDG": "Responsible consumption and production",
+    "Company": "Google",
+    "site": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
+  },
+  {
+    "document": "document79",
+    "SDG": "Responsible consumption and production",
+    "Company": "Microsoft",
+    "site": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4GSkV"
+  },
+  {
+    "document": "document80",
+    "SDG": "Responsible consumption and production",
+    "Company": "Microsoft",
+    "site": "https://msft.it/6005kgGC9"
+  },
+  {
+    "document": "document81",
+    "SDG": "Responsible consumption and production",
+    "Company": "Apple",
+    "site": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2021.pdf"
+  },
+  {
+    "document": "document82",
+    "SDG": "Responsible consumption and production",
+    "Company": "Apple",
+    "site": "https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2021.pdf"
+  },
+  {
+    "document": "document83",
+    "SDG": "Responsible consumption and production",
+    "Company": "Amazon",
+    "site": "https://sustainability.aboutamazon.com/environment/sustainable-operations"
+  },
+  {
+    "document": "document84",
+    "SDG": "Climate action",
+    "Company": "Google",
+    "site": "https://sustainability.google/commitments-europe/"
+  },
+  {
+    "document": "document85",
+    "SDG": "Climate action",
+    "Company": "Microsoft",
+    "site": "https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/"
+  },
+  {
+    "document": "document86",
+    "SDG": "Climate action",
+    "Company": "Microsoft",
+    "site": "https://www.theguardian.com/environment/2021/nov/27/its-critical-can-microsoft-make-good-on-its-climate-ambitions"
+  },
+  {
+    "document": "document87",
+    "SDG": "Climate action",
+    "Company": "Apple",
+    "site": "https://www.apple.com/newsroom/2020/07/apple-commits-to-be-100-percent-carbon-neutral-for-its-supply-chain-and-products-by-2030/"
+  },
+  {
+    "document": "document88",
+    "SDG": "Climate action",
+    "Company": "Amazon",
+    "site": "https://sustainability.aboutamazon.com/about/the-climate-pledge"
+  },
+  {
+    "document": "document89",
+    "SDG": "Climate action",
+    "Company": "Amazon",
+    "site": "https://www.aboutamazon.eu/news/sustainability/encouraging-more-companies-to-take-action-on-climate-change"
+  },
+  {
+    "document": "document90",
+    "SDG": "Life below water",
+    "Company": "Google",
+    "site": "https://artsandculture.google.com/story/life-below-water-why-it-matters-united-nations/owXxAQt2F4H_oQ?hl=en"
+  },
+  {
+    "document": "document91",
+    "SDG": "Life below water",
+    "Company": "Google",
+    "site": "https://www.dandad.org/awards/professional/2021/234168/life-below-water/"
+  },
+  {
+    "document": "document92",
+    "SDG": "Life below water",
+    "Company": "Microsoft",
+    "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
+  },
+  {
+    "document": "document93",
+    "SDG": "Life below water",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/us/podcast/s1e14-life-below-water/id1493352817?i=1000470846832"
+  },
+  {
+    "document": "document94",
+    "SDG": "Life below water",
+    "Company": "Amazon",
+    "site": "https://www.amazon.it/Life-Below-Water-Walter-Filho/dp/3319985353"
+  },
+  {
+    "document": "document95",
+    "SDG": "Life on land",
+    "Company": "Google",
+    "site": "https://artsandculture.google.com/asset/goal-15-life-on-land/gwGJiz3fknJllA?hl=en"
+  },
+  {
+    "document": "document96",
+    "SDG": "Life on land",
+    "Company": "Google",
+    "site": "https://sites.google.com/a/franklinps.net/united-nations-sustainable-development-goals/home/goal-15"
+  },
+  {
+    "document": "document97",
+    "SDG": "Life on land",
+    "Company": "Google",
+    "site": "https://gdg.community.dev/events/details/google-gdg-tucson-presents-sustainability-series-15-life-on-land/"
+  },
+  {
+    "document": "document98",
+    "SDG": "Life on land",
+    "Company": "Microsoft",
+    "site": "https://inculture.microsoft.com/social-good/protecting-our-planet/"
+  },
+  {
+    "document": "document99",
+    "SDG": "Life on land",
+    "Company": "Microsoft",
+    "site": "https://microbit.org/projects/do-your-bit/global-goals/life-on-land/"
+  },
+  {
+    "document": "document100",
+    "SDG": "Life on land",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/au/podcast/life-on-the-land/id1528231879"
+  },
+  {
+    "document": "document101",
+    "SDG": "Life on land",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Life-Land-Continuum-World-Renowned-Self-Discovery/dp/1556436459"
+  },
+  {
+    "document": "document102",
+    "SDG": "Life on land",
+    "Company": "Amazon",
+    "site": "https://www.amazon.it/Life-Land-Continuum-Emilie-Conrad-DaOud/dp/1556434030"
+  },
+  {
+    "document": "document103",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Google",
+    "site": "https://books.google.com/books/about/Peace_Justice_and_Strong_Institutions.html?id=c8EiuAEACAAJ"
+  },
+  {
+    "document": "document104",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Microsoft",
+    "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
+  },
+  {
+    "document": "document105",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Microsoft",
+    "site": "https://business.globalgoals.org/goal/peace-justice-and-strong-institutions"
+  },
+  {
+    "document": "document106",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Apple",
+    "site": "https://podcasts.apple.com/gb/podcast/sdg-16-peace-justice-and-strong-institutions/id1556484313?i=1000531214867"
+  },
+  {
+    "document": "document107",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Apple",
+    "site": "https://www.sustainapple.it/en/sdgs/label16/"
+  },
+  {
+    "document": "document108",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Apple",
+    "site": "https://www.un.org/sustainabledevelopment/wp-content/uploads/2019/07/16_Why-It-Matters-2020.pdf"
+  },
+  {
+    "document": "document109",
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Justice-Institutions-Encyclopedia-Sustainable-Development/dp/3319959611"
+  },
+  {
+    "document": "document110",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Google",
+    "site": "https://www.data4sdgs.org/partner/google"
+  },
+  {
+    "document": "document111",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Google",
+    "site": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
+  },
+  {
+    "document": "document112",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Google",
+    "site": "https://sustainabledevelopment.un.org/partnership/partners/?id=10449"
+  },
+  {
+    "document": "document113",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Microsoft",
+    "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
+  },
+  {
+    "document": "document114",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Microsoft",
+    "site": "https://sustainabledevelopment.un.org/partnership/partners/?id=1396"
+  },
+  {
+    "document": "document115",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Apple",
+    "site": "https://sustainabledevelopment.un.org/partnership/partners/?id=8855"
+  },
+  {
+    "document": "document116",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Apple",
+    "site": "https://www.apple.com/environment/"
+  },
+  {
+    "document": "document117",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Apple",
+    "site": "https://applevisionltd.com/apple-vision-sdgs/"
+  },
+  {
+    "document": "document118",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Amazon",
+    "site": "https://sustainability.aboutamazon.com/about/partnerships"
+  },
+  {
+    "document": "document119",
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Amazon",
+    "site": "https://www.amazon.com/Partnerships-Goals-Encyclopedia-Sustainable-Development/dp/331995962X"
+  }
+]
