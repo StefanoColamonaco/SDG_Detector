@@ -28,11 +28,11 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
         filename = "./data/automatedTrainingURLs/documentsRegister.json" 
         with open(filename, 'w') as f:
             json.dump(dataForRegister, f, indent=2)
-        else:
-            filename = "./data/automatedTrainingURLs/documentsRegister.json" 
-            with open(filename, 'r') as f:
-                registerData = json.load(f)
-                count = len(registerData)
+    else:
+        filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+        with open(filename, 'r') as f:
+            registerData = json.load(f)
+            count = len(registerData)
     return count
 
 def splitTextIntoParagraphs(text):

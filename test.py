@@ -18,7 +18,7 @@ recursiveGeneration = 0
 # if 1: Dataset generation will use recursive generation tecnique 
 # if 0: Will use the first implementation of dataset generation from hand-written phrases
 
-newAnalysis = 0
+newAnalysis = 0    # Please Fil keep it on zero
 # if 1: Will generate a new set of documents from which to derive training data
 # if 0: Will use the current set of documents in data/automatedTrainingURLs/documents/
 
@@ -28,6 +28,7 @@ if __name__ == "__main__":
         if( recursiveGeneration == 1 ):
             #initialize()
             count = automaticTrainingDocumentRetrieve(newAnalysis)
+            print(count)
             for i in range(1,1):    #count+1              # per ogni documento
                 fragments = getFragmentsFromDocument(i) # split del documento 
                 for fragment in fragments:              # per ogni frammento  
