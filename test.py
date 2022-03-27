@@ -10,14 +10,24 @@ nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('omw-1.4')
 
-generateDataset = 1
-recursiveGeneration = 1
+generateDataset = 0
+# if 1: Will generate dataset
+# if 0: Will use the current dataset
+
+recursiveGeneration = 0
+# if 1: Dataset generation will use recursive generation tecnique 
+# if 0: Will use the first implementation of dataset generation from hand-written phrases
+
+newAnalysis = 0
+# if 1: Will generate a new set of documents from which to derive training data
+# if 0: Will use the current set of documents in data/automatedTrainingURLs/documents/
+
 
 if __name__ == "__main__":
     if( generateDataset == 1 ):
         if( recursiveGeneration == 1 ):
             #initialize()
-            count = automaticTrainingDocumentRetrieve()
+            count = automaticTrainingDocumentRetrieve(newAnalysis)
             for i in range(1,1):    #count+1              # per ogni documento
                 fragments = getFragmentsFromDocument(i) # split del documento 
                 for fragment in fragments:              # per ogni frammento  

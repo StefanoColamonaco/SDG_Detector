@@ -8,33 +8,31 @@ DOCSPERSDG = 1
 SDGOBJECTIVES = [ "No poverty", "Zero hunger", "Good health and well-being", "Quality education", "Gender equality", "Clean water and sanitation", "Affordable and clean energy", "Decent work and economic growth", "Industry, innovation and infrastructure", "Reduced inequalities", "Sustainable cities and communities", "Responsible consumption and production", "Climate action", "Life below water", "Life on land", "Peace, justice and strong institutions", "Partnerships for the sustainable goals" ]
 TRAININGCOMPANIES = ["Google", "Microsoft", "Apple", "Amazon" ]
 
-def automaticTrainingDocumentRetrieve():
+def automaticTrainingDocumentRetrieve(newAnalysis):
     count = 0
-    dataForRegister = []
-    for objective in SDGOBJECTIVES:
-        for company in TRAININGCOMPANIES:
-            query = objective+" "+"at "+company
-            urls = search(query, num_results=DOCSPERSDG)
-            for url in urls:
-                print(url)
-                text = site(url)
-                data = splitTextIntoParagraphs(text)
-                print(text[:100])
-                print(data)
-                path = "./data/automatedTrainingURLs/documents/" 
-                filename = path+"document"+str(count+1)+".json"
-                with open(filename, 'w') as f:
-                    json.dump(data, f, indent=2)
-                dataForRegister.append({"document": "document"+str(count+1), "SDG":objective,"Company":company,"site":url})
-                print("ok")
-                filename = "./data/automatedTrainingURLs/documentsRegister.json" #TODO: to remove
-                with open(filename, 'w') as f:                                   #TODO: to remove
-                    json.dump(dataForRegister, f, indent=2)                      #TODO: to remove
-                count = count + 1
+    if(newAnalysis == 1):
+        dataForRegister = []
+        for objective in SDGOBJECTIVES:
+            for company in TRAININGCOMPANIES:
+                query = objective+" "+"at "+company
+                urls = search(query, num_results=DOCSPERSDG)
+                for url in urls:
+                    text = site(url)
+                    data = splitTextIntoParagraphs(text)
+                    path = "./data/automatedTrainingURLs/documents/" 
+                    filename = path+"document"+str(count+1)+".json"
+                    with open(filename, 'w') as f:
+                        json.dump(data, f, indent=2)
+                    dataForRegister.append({"document": "document"+str(count+1), "SDG":objective,"Company":company,"site":url})
 
-    filename = "./data/automatedTrainingURLs/documentsRegister.json" 
-    with open(filename, 'w') as f:
-        json.dump(dataForRegister, f, indent=2)
+        filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+        with open(filename, 'w') as f:
+            json.dump(dataForRegister, f, indent=2)
+        else:
+            filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+            with open(filename, 'r') as f:
+                registerData = json.load(f)
+                count = len(registerData)
     return count
 
 def splitTextIntoParagraphs(text):
