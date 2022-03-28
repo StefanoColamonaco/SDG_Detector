@@ -78,6 +78,7 @@
   },
   {
     "document": "document12",
+    "SDG_Number":2,
     "SDG": "Zero hunger",
     "Company": "Apple",
     "site": "https://podcasts.apple.com/us/podcast/target-zero-hunger/id1106944351"

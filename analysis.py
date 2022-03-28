@@ -104,7 +104,7 @@ def init_classifiers():
         train_set = featuresets
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
 
-def check_sdg(text):
+def check_sdg(text, output=True):
     """
     Checks the presence of SDGs in provided text 
     Args:
@@ -117,9 +117,10 @@ def check_sdg(text):
         ans = classifier[goal].classify(feature_extractor(goal, text))
         if ans:
             res[goal - 1] = True
-    for goal in range(1, 18):
-        if res[goal - 1]:
-            print("[\033[92m\u2713\033[0m] {}: {}".format(goal, sdgir[goal][0]))
-        else:
-            print("[\033[91m\u2717\033[0m] {}: {}".format(goal, sdgir[goal][0]))
+    if(output == True):
+        for goal in range(1, 18):
+            if res[goal - 1]:
+                print("[\033[92m\u2713\033[0m] {}: {}".format(goal, sdgir[goal][0]))
+            else:
+                print("[\033[91m\u2717\033[0m] {}: {}".format(goal, sdgir[goal][0]))
     return res

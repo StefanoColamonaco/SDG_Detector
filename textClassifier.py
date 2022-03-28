@@ -74,13 +74,17 @@ def generateDatasetFor(sdgNum, texts):
 
 
 def vrbobj_pairs(text):
-    doc = nlp(text)
-    allPairs = []
-    for sentence in doc.sentences:
-        pairs = extrapolatePairs(sentence.words)
-        #print(sentence.text)
-        allPairs = allPairs + pairs
-    return allPairs
+    try:
+        doc = nlp(text)
+        allPairs = []
+        for sentence in doc.sentences:
+            pairs = extrapolatePairs(sentence.words)
+            #print(sentence.text)
+            allPairs = allPairs + pairs
+        return allPairs
+    except:
+        print("error in constituency parsing")
+        return []
 
 def extrapolatePairs(words):
     pairs = []
