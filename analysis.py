@@ -14,11 +14,15 @@ classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
 tpairs = dict() # the storage of verb-object pairs for targets 
 tdict = {} # the storage of verb-object pairs for sentences in text
 
-def initialize():
+def initialize(data_opt=False):
+    """
+    Loads data and initializes the classifiers 
+    Args:
+        data_opt: a boolean that specifies the source of data, ./data/trainingURLs if True, ./data/sdgs otherwise
+    """
     preload()
-    load_data()
+    load_data(data_opt)
     init_classifiers()
-    #printGeneratedCouples()
     print("\n INITIALIZATION COMPLETED \n")
             
 def preload():
@@ -45,16 +49,22 @@ def preload():
             line = file.readline()
         file.close()
 
-def load_data():
-    for dirent in os.listdir('./data/trainingURLs'):
-        file = open('./data/trainingURLs/' + dirent)
-        goal = int(dirent[0:2])
-        data = json.load(file)
-        dataset[goal] = []
-        for entry in data:
-            dataset[goal].append((entry["text"], entry["type"] == "T-positive"))
-        random.shuffle(dataset[goal])
-        file.close()
+def load_data(opt):
+    if opt:
+        for dirent in os.listdir('./data/trainingURLs'):
+            file = open('./data/trainingURLs/' + dirent)
+            goal = int(dirent[0:2])
+            data = json.load(file)
+            dataset[goal] = []
+            for entry in data:
+                dataset[goal].append((entry["text"], entry["type"] == "T-positive"))
+            random.shuffle(dataset[goal])
+            file.close()
+    else:
+        for goal in range(1, 18):
+            dataset[goal] = []
+            for gcmp in range(1, 18):
+                dataset[goal] += [(entry, goal == gcmp) for entry in sdgir[gcmp][1]]
         
 # creating feature extractor based on verb-object pair overlap
 def feature_extractor(goal, text):
@@ -95,6 +105,13 @@ def init_classifiers():
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
 
 def check_sdg(text):
+    """
+    Checks the presence of SDGs in provided text 
+    Args:
+        text: a string which contains the text to be analysed
+    Returns:
+        res: a list of booleans representing the presence of goals
+    """
     res = [False for i in range(17)]
     for goal in sdgir.keys():
         ans = classifier[goal].classify(feature_extractor(goal, text))
