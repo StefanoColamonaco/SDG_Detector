@@ -1,7 +1,7 @@
 from textRetriever import retrieve, retrieveTrainigTextsFor
 from analysis import initialize,check_sdg
 from textClassifier import generateDatasetFor, writePairsForSDG, mergeAndOrderTuples, overwritePairsForSDG, removeDuplicatesFromOrderedTuples
-from trainingDocumentsRetrieve import getFragmentsFromDocument, automaticTrainingDocumentRetrieve
+from trainingDocumentsRetrieve import getFragmentsFromDocument, automaticTrainingDocumentRetrieve, getInfoFromDocument
 import stanza
 import nltk
 
@@ -26,19 +26,19 @@ newAnalysis = 0 # IMPORTANT !! Please Fil keep it on zero
 if __name__ == "__main__":
     if( generateDataset == 1 ):
         if( recursiveGeneration == 1 ):
-            #initialize()
+            initialize()
             count = automaticTrainingDocumentRetrieve(newAnalysis)
-            print(count)
-            for i in range(1,1):    #count+1              # per ogni documento
+            for i in range(1,2):    #count+1              # per ogni documento
                 fragments = getFragmentsFromDocument(i) # split del documento 
+                info = getInfoFromDocument(i)                                       #TODO: set variable as global to improve performance
+                print(info)
                 for fragment in fragments:              # per ogni frammento  
                     sdgs = check_sdg(fragment)          # analisi del frammento e ritorno con array degli sdg validi per frammento
                     pairs = generateDatasetFor(0, [fragment])  # generazione coppie vrb_obj
-                    pairs = removeDuplicatesFromOrderedTuples(mergeAndOrderTuples(pairs))
+                    pairs = mergeAndOrderTuples(pairs)
                     print(pairs)
                     for i in range(1,18):                    # concatenazione nei file degli sdg relativi 
-                        if (sdgs[i-1] == 1):
-                            print(i)
+                        if (sdgs[i-1] == 1 and info['SDG_Number']==i):
                             overwritePairsForSDG(i, pairs, [])
             print("automatic generation ended")
         else:

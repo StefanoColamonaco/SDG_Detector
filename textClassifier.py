@@ -28,9 +28,12 @@ def mergeAndOrderTuples(allPairs):
     tmp = []
     for pair in allPairs:
         tmp = tmp + pair
-    tmp.sort(key=lambda x:x[1])
-    tmp.sort(key=lambda x:x[0])
-    return tmp
+    return orderTuples(tmp)
+
+def orderTuples(pairs):
+    pairs.sort(key=lambda x:x[1])
+    pairs.sort(key=lambda x:x[0])
+    return pairs
 
 def writePairsForSDG(sdg, positivePairs, negativePairs): #TODO: implementare eliminazione dei duplicati
     stringnum = ""
@@ -60,7 +63,7 @@ def overwritePairsForSDG(sdg, positivePairs, negativePairs):
             else:
                 oldPositive.append( (line.split()[0],line.split()[1]) )
             line = f.readline()
-    writePairsForSDG(sdg, oldPositive + positivePairs, oldNegative + negativePairs)
+    writePairsForSDG(sdg, removeDuplicatesFromOrderedTuples(orderTuples(oldPositive + positivePairs)), removeDuplicatesFromOrderedTuples(orderTuples(oldNegative + negativePairs)))
 
 def generateDatasetFor(sdgNum, texts):
     allPairs = []

@@ -12,8 +12,9 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
     count = 0
     if(newAnalysis == 1):
         dataForRegister = []
-        for objective in SDGOBJECTIVES:
+        for objIndex in range(0,17):
             for company in TRAININGCOMPANIES:
+                objective = SDGOBJECTIVES[objIndex]
                 query = objective+" "+"at "+company
                 urls = search(query, num_results=DOCSPERSDG)
                 for url in urls:
@@ -23,7 +24,7 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
                     filename = path+"document"+str(count+1)+".json"
                     with open(filename, 'w') as f:
                         json.dump(data, f, indent=2)
-                    dataForRegister.append({"document": "document"+str(count+1), "SDG":objective,"Company":company,"site":url})
+                    dataForRegister.append({"document": "document"+str(count+1), "SDG_Number":objIndex+1,"SDG":objective,"Company":company,"site":url})
 
         filename = "./data/automatedTrainingURLs/documentsRegister.json" 
         with open(filename, 'w') as f:
@@ -47,8 +48,6 @@ def splitTextIntoParagraphs(text):
     return data
     
 
-
-
 def getFragmentsFromDocument(docNumber):
     file = open('./data/automatedTrainingURLs/documents/document' + str(docNumber) + ".json" )
     obj = json.load(file)
@@ -56,3 +55,9 @@ def getFragmentsFromDocument(docNumber):
     for paragraph in obj:
         paragraphs.append(paragraph)
     return paragraphs
+
+def getInfoFromDocument(docNumber):
+    filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+    with open(filename, 'r') as f:
+        registerData = json.load(f)
+        return registerData[docNumber-1]
