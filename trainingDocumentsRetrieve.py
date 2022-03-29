@@ -4,9 +4,9 @@ from googlesearch import search
 from textRetriever import site 
 
 NUMSENTENCESPERPARAGRAPH = 5
-DOCSPERSDG = 1
+DOCSPERSDG = 2
 SDGOBJECTIVES = [ "No poverty", "Zero hunger", "Good health and well-being", "Quality education", "Gender equality", "Clean water and sanitation", "Affordable and clean energy", "Decent work and economic growth", "Industry, innovation and infrastructure", "Reduced inequalities", "Sustainable cities and communities", "Responsible consumption and production", "Climate action", "Life below water", "Life on land", "Peace, justice and strong institutions", "Partnerships for the sustainable goals" ]
-TRAININGCOMPANIES = ["Google", "Microsoft", "Apple", "Amazon" ]
+TRAININGCOMPANIES = ["Wikipedia","Unibo", "Google", "Microsoft", "Apple", "Amazon"  ]
 
 def automaticTrainingDocumentRetrieve(newAnalysis):
     count = 0
@@ -18,14 +18,15 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
                 query = objective+" "+"at "+company
                 urls = search(query, num_results=DOCSPERSDG)
                 for url in urls:
-                    text = site(url)
-                    data = splitTextIntoParagraphs(text)
-                    path = "./data/automatedTrainingURLs/documents/" 
-                    filename = path+"document"+str(count+1)+".json"
-                    with open(filename, 'w') as f:
-                        json.dump(data, f, indent=2)
-                    dataForRegister.append({"document": "document"+str(count+1), "SDG_Number":objIndex+1,"SDG":objective,"Company":company,"site":url})
-
+                    if (url.find(".pdf") == -1):
+                        text = site(url)
+                        data = splitTextIntoParagraphs(text)
+                        path = "./data/automatedTrainingURLs/documents/" 
+                        filename = path+"document"+str(count+1)+".json"
+                        with open(filename, 'w') as f:
+                            json.dump(data, f, indent=2)
+                        dataForRegister.append({"document": "document"+str(count+1), "SDG_Number":objIndex+1,"SDG":objective,"Company":company,"site":url})
+                        count = count+1
         filename = "./data/automatedTrainingURLs/documentsRegister.json" 
         with open(filename, 'w') as f:
             json.dump(dataForRegister, f, indent=2)
