@@ -4,20 +4,24 @@ from googlesearch import search
 from textRetriever import site 
 
 NUMSENTENCESPERPARAGRAPH = 5
-DOCSPERSDG = 2
+DOCSPERSDG = 1
 SDGOBJECTIVES = [ "No poverty", "Zero hunger", "Good health and well-being", "Quality education", "Gender equality", "Clean water and sanitation", "Affordable and clean energy", "Decent work and economic growth", "Industry, innovation and infrastructure", "Reduced inequalities", "Sustainable cities and communities", "Responsible consumption and production", "Climate action", "Life below water", "Life on land", "Peace, justice and strong institutions", "Partnerships for the sustainable goals" ]
-TRAININGCOMPANIES = ["Wikipedia","Unibo", "Google", "Microsoft", "Apple", "Amazon"  ]
+TRAININGCOMPANIES = ["Wikipedia","Unibo", "Google", "Microsoft"]
 
 def automaticTrainingDocumentRetrieve(newAnalysis):
     count = 0
     if(newAnalysis == 1):
         dataForRegister = []
         for objIndex in range(0,17):
+            print("Finding for SDG", objIndex, ":", SDGOBJECTIVES[objIndex])
             for company in TRAININGCOMPANIES:
+                print("\tFinding for Company named", company)
                 objective = SDGOBJECTIVES[objIndex]
                 query = objective+" "+"at "+company
-                urls = search(query, num_results=DOCSPERSDG)
-                for url in urls:
+                urls = search(query)
+                urls = list(urls)
+                for i in range(0,DOCSPERSDG):
+                    url = urls[i]
                     if (url.find(".pdf") == -1):
                         text = site(url)
                         data = splitTextIntoParagraphs(text)

@@ -10,15 +10,15 @@ nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('omw-1.4')
 
-generateDataset = 0
+generateDataset = 1
 # if 1: Will generate dataset
 # if 0: Will use the current dataset
 
-recursiveGeneration = 0
+recursiveGeneration = 1
 # if 1: Dataset generation will use recursive generation tecnique 
 # if 0: Will use the first implementation of dataset generation from hand-written phrases
 
-newAnalysis = 0 # IMPORTANT !! Please Fil keep it on zero
+newAnalysis = 1 # IMPORTANT !! Please Fil keep it on zero
 # if 1: Will generate a new set of documents from which to derive training data
 # if 0: Will use the current set of documents in data/automatedTrainingURLs/documents/
 
@@ -49,6 +49,7 @@ if __name__ == "__main__":
                 positivePairs = removeDuplicatesFromOrderedTuples(mergeAndOrderTuples(allPositivePairs))
                 negativePairs = removeDuplicatesFromOrderedTuples(mergeAndOrderTuples(allNegativePairs))
                 writePairsForSDG(sdg, positivePairs, negativePairs)
+            print("\nSTANDARD GENERATION ENDED SUCCESSFULLY\n")
     texts = retrieve()
     initialize()
     for text in texts:
