@@ -1,6 +1,5 @@
 ## importing libraries
 import stanza
-#from stanza.server import CoreNLPClient
 import os, nltk, re, random, time
 from nltk.parse import CoreNLPDependencyParser
 import json

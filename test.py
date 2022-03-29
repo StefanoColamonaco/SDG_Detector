@@ -1,7 +1,3 @@
-from textRetriever import retrieve, retrieveTrainigTextsFor
-from analysis import initialize,check_sdg
-from textClassifier import generateDatasetFor, writePairsForSDG, mergeAndOrderTuples, overwritePairsForSDG, removeDuplicatesFromOrderedTuples
-from trainingDocumentsRetrieve import getFragmentsFromDocument, automaticTrainingDocumentRetrieve, getInfoFromDocument
 import stanza
 import nltk
 
@@ -9,6 +5,12 @@ stanza.download('en')
 nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('omw-1.4')
+
+from textRetriever import retrieve, retrieveTrainigTextsFor
+from analysis import initialize,check_sdg
+from textClassifier import generateDatasetFor, writePairsForSDG, mergeAndOrderTuples, overwritePairsForSDG, removeDuplicatesFromOrderedTuples
+from trainingDocumentsRetrieve import getFragmentsFromDocument, automaticTrainingDocumentRetrieve, getInfoFromDocument
+
 
 generateDataset = 0
 # if 1: Will generate dataset

@@ -6,13 +6,5 @@
     {
         "type": "F",
         "url": "http://textfiles.com/adventure/aencounter.txt"
-    },
-    {
-        "type": "S",
-        "url": "https://sdgs.un.org/goals/goal3"
-    },
-    {
-        "type": "S",
-        "url": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
     }
 ]
