@@ -31,7 +31,7 @@ if __name__ == "__main__":
             for i in range(1,count+1):    #count+1              # per ogni documento
                 fragments = getFragmentsFromDocument(i) # split del documento 
                 info = getInfoFromDocument(i)                                       #TODO: set variable as global to improve performance
-                print("analizzando il documento",info['document'],"...")
+                print("Analyzing",info['document'],"...")
                 for fragment in fragments:              # per ogni frammento  
                     sdgs = check_sdg(fragment, False)          # analisi del frammento e ritorno con array degli sdg validi per frammento
                     pairs = generateDatasetFor(0, [fragment])  # generazione coppie vrb_obj
