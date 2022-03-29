@@ -83,8 +83,7 @@ def vrbobj_pairs(text):
             allPairs = allPairs + pairs
         return allPairs
     except:
-        print("\nError in constituency parsing for text:")
-        print(text,"\n")
+        print("Error in constituency parsing")
         return []
 
 def extrapolatePairs(words):
