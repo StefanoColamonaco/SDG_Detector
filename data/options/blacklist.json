@@ -13,6 +13,198 @@
         {
             "verb": "make",
             "noun": "effect"
+        },
+        {
+            "verb":"account",
+            "noun": "percent"
+        }, 
+        {
+            "verb":"address",
+            "noun": "challenge"
+        }, 
+        {
+            "verb":"aggregate",
+            "noun": "sex"
+        }, 
+        {
+            "verb":"attribute",
+            "noun": "percent"
+        }, 
+        {
+            "verb":"be",
+            "noun": "addition"
+        }, 
+        {
+            "verb":"be",
+            "noun": "datum"
+        }, 
+        {
+            "verb":"be",
+            "noun": "indicator"
+        }, 
+        {
+            "verb":"be",
+            "noun": "people"
+        }, 
+        {
+            "verb":"be",
+            "noun": "year"
+        }, 
+        {
+            "verb":"benefit",
+            "noun": "form"
+        }, 
+        {
+            "verb":"build",
+            "noun": "disaster"
+        }, 
+        {
+            "verb":"build",
+            "noun": "means"
+        }, 
+        {
+            "verb":"cart",
+            "noun": "cart"
+        }, 
+        {
+            "verb":"cart",
+            "noun": "item"
+        }, 
+        {
+            "verb":"charge",
+            "noun": "motorcycle"
+        }, 
+        {
+            "verb":"charge",
+            "noun": "rider"
+        },  
+        {
+            "verb":"come",
+            "noun": "head"
+        }, 
+        {
+            "verb":"contribute",
+            "noun": "percent"
+        }, 
+        {
+            "verb":"cover",
+            "noun": "percent"
+        }, 
+        {
+            "verb":"cover",
+            "noun": "cent"
+        }, 
+        {
+            "verb":"drop", 
+            "noun": "percent"
+        },  
+        {
+            "verb":"end", 
+            "noun":"1.b"
+        },  
+        {
+            "verb":"end", 
+            "noun": "dimension"
+        }, 
+        {
+            "verb":"end", 
+            "noun":"ed"
+        }, 
+        {
+            "verb":"end", 
+            "noun":"form"
+        }, 
+        {
+            "verb":"end", 
+            "noun":"way"
+        }, 
+        {
+            "verb":"ensure", 
+            "noun":"ed"
+        }, 
+        {
+            "verb":"fall" ,
+            "noun":"percent"
+        }, 
+        {
+            "verb":"go" ,
+            "noun":"bed"
+        }, 
+        {
+            "verb":"go" ,
+            "noun":"night"
+        }, 
+        {
+            "verb":"go" ,
+            "noun": "people"
+        }, 
+        {
+            "verb":"have" ,
+            "noun":"datum"
+        },  
+        {
+            "verb": "have" ,
+            "noun":"percent"
+        }, 
+        {
+            "verb":"help" ,
+            "noun": "datum"
+        }, 
+        {
+            "verb":"increase" ,
+            "noun": "month"
+        }, 
+        {
+            "verb":"jump" ,
+            "noun": "jump"
+        }, 
+        {
+            "verb":"lack" ,
+            "noun": "half"
+        }, 
+        {
+            "verb":"leave" ,
+            "noun": "one"
+        }, 
+        {
+            "verb":"maintain" ,
+            "noun": "ed"
+        }, 
+        {
+            "verb":"mantain" ,
+            "noun": "title"
+        }, 
+        {
+            "verb":"meet" ,
+            "noun": "need"
+        }, 
+        {
+            "verb":"occur" ,
+            "noun": "day"
+        }, 
+        {
+            "verb":"project" ,
+            "noun": "percent"
+        }, 
+        {
+            "verb":"push" ,
+            "noun": "shock"
+        }, 
+        {
+            "verb":"reduce" ,
+            "noun": "decade"
+        }, 
+        {
+            "verb":"report" ,
+            "noun": "total"
+        }, 
+        {
+            "verb":"tabl" ,
+            "noun": "proposal"
+        }, 
+        {
+            "verb":"waste" ,
+            "noun": "chill"
         }
     ]
 }
