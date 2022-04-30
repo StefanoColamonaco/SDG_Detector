@@ -25,17 +25,17 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
                     if (url.find(".pdf") == -1):
                         text = site(url)
                         data = splitTextIntoParagraphs(text)
-                        path = "./data/automatedTrainingURLs/documents/" 
+                        path = "../data/automatedTrainingURLs/documents/" 
                         filename = path+"document"+str(count+1)+".json"
                         with open(filename, 'w') as f:
                             json.dump(data, f, indent=2)
                         dataForRegister.append({"document": "document"+str(count+1), "SDG_Number":objIndex+1,"SDG":objective,"Company":company,"site":url})
                         count = count+1
-        filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+        filename = "../data/automatedTrainingURLs/documentsRegister.json" 
         with open(filename, 'w') as f:
             json.dump(dataForRegister, f, indent=2)
     else:
-        filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+        filename = "../data/automatedTrainingURLs/documentsRegister.json" 
         with open(filename, 'r') as f:
             registerData = json.load(f)
             count = len(registerData)
@@ -54,7 +54,7 @@ def splitTextIntoParagraphs(text):
     
 
 def getFragmentsFromDocument(docNumber):
-    file = open('./data/automatedTrainingURLs/documents/document' + str(docNumber) + ".json" )
+    file = open('../data/automatedTrainingURLs/documents/document' + str(docNumber) + ".json" )
     obj = json.load(file)
     paragraphs = []
     for paragraph in obj:
@@ -62,7 +62,7 @@ def getFragmentsFromDocument(docNumber):
     return paragraphs
 
 def getInfoFromDocument(docNumber):
-    filename = "./data/automatedTrainingURLs/documentsRegister.json" 
+    filename = "../data/automatedTrainingURLs/documentsRegister.json" 
     with open(filename, 'r') as f:
         registerData = json.load(f)
         return registerData[docNumber-1]

@@ -7,8 +7,8 @@ SDG Detector is a software that checks the presence of SDG indicators in provide
 You just need to clone the repository and then install the required libraries from ``requirements.txt``.
 ## Usage
 
-First step is defining the list of URLs you want to check by adding them in ``urlsList.json``.
-After that you will be able to check if the texts contain some of SDG references by launching Python test script:
+First step is defining the list of URLs you want to check by adding them in ``src/urlsList.json``.
+After that you will be able to check if the texts contain some of SDG references by launching SDG Detector Python script:
 
 ```bash
-python3 test.py
+python3 src/SDGDetector.py

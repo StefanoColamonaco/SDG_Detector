@@ -11,7 +11,7 @@ def fillTrainingURLs(num):
     if(num < 10):
         stringnum = "0"
     stringnum = stringnum + str(num) 
-    with open('./data/trainingURLs/'+stringnum+'urls.json') as f:
+    with open('../data/trainingURLs/'+stringnum+'urls.json') as f:
         return json.load(f)
 
 def file(url):

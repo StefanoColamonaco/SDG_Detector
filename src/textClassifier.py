@@ -7,7 +7,7 @@ from nltk.corpus import wordnet as wn
 
 nlp = stanza.Pipeline(lang='en', processors='tokenize,mwt,pos,lemma,depparse,constituency')
 
-with open('./data/options/blacklist.json') as f:
+with open('../data/options/blacklist.json') as f:
     blObj = json.load(f)
     blacklistedVerbs = blObj["blacklistedVerbs"]
     blacklistedNouns = blObj["blacklistedNouns"]
@@ -39,7 +39,7 @@ def writePairsForSDG(sdg, positivePairs, negativePairs): #TODO: implementare eli
     if(sdg < 10):
         stringnum = "0"
     stringnum = stringnum + str(sdg) 
-    with open('./data/dataset/'+stringnum+'pairs.txt','w') as f:
+    with open('../data/dataset/'+stringnum+'pairs.txt','w') as f:
         for tup in positivePairs:
             text = str(str(tup[0])+" "+str(tup[1])+" "+str(getWeightFor(str(tup[0]),str(tup[1]),1))+"\n")
             f.write(text)
@@ -54,7 +54,7 @@ def overwritePairsForSDG(sdg, positivePairs, negativePairs):
     stringnum = stringnum + str(sdg)
     oldPositive = []
     oldNegative = []
-    with open('./data/dataset/'+stringnum+'pairs.txt','r') as f:
+    with open('../data/dataset/'+stringnum+'pairs.txt','r') as f:
         line = f.readline()
         while line:
             if( line.find("-1") != -1 ):
