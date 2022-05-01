@@ -28,7 +28,7 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
                 if (count % 10 == 0):                   # to avoid 429
                     time.sleep(20)                      #
                 else:                                   #
-                    time.sleep(1)                       #
+                    time.sleep(1 + (0.01*count))        #
                 for i in range(0,DOCSPERSDG):
                     url = urls[i]
                     if (url.find(".pdf") == -1):
