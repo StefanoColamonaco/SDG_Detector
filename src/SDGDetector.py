@@ -26,6 +26,7 @@ newAnalysis = 0 # IMPORTANT !! Please Fil keep it on zero
 
 
 if __name__ == "__main__":
+    #automaticTrainingDocumentRetrieve(1)
     if( generateDataset == 1 ):
         if( recursiveGeneration == 1 ):
             initialize()
