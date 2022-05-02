@@ -14,7 +14,7 @@ def automaticTrainingDocumentRetrieve(newAnalysis):
     if(newAnalysis == 1):
         dataForRegister = []
         for objIndex in range(0,17):
-            print("Finding for SDG", objIndex, ":", SDGOBJECTIVES[objIndex])
+            print("Finding for SDG", objIndex+1, ":", SDGOBJECTIVES[objIndex])
             for company in TRAININGCOMPANIES:
                 print("\tFinding for Company named", company)
                 objective = SDGOBJECTIVES[objIndex]

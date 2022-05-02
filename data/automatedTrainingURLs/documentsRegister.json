@@ -3,469 +3,910 @@
     "document": "document1",
     "SDG_Number": 1,
     "SDG": "No poverty",
+    "Company": "Nike",
+    "site": "https://www.borgenmagazine.com/nike-committed-saving-girls-poverty/"
+  },
+  {
+    "document": "document2",
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/search?k=end%20poverty"
+  },
+  {
+    "document": "document3",
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Nvidia",
+    "site": "https://www.facebook.com/pbpinternational/videos/nvidia/624277738463120/"
+  },
+  {
+    "document": "document4",
+    "SDG_Number": 1,
+    "SDG": "No poverty",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_1"
   },
   {
-    "document": "document2",
+    "document": "document5",
     "SDG_Number": 1,
     "SDG": "No poverty",
     "Company": "Unibo",
     "site": "https://site.unibo.it/almagoals/en/covid-19/no-poverty"
   },
   {
-    "document": "document3",
+    "document": "document6",
     "SDG_Number": 1,
     "SDG": "No poverty",
     "Company": "Google",
     "site": "https://borgenproject.org/googles-contribution-to-fighting-extreme-poverty/"
   },
   {
-    "document": "document4",
+    "document": "document7",
     "SDG_Number": 1,
     "SDG": "No poverty",
     "Company": "Microsoft",
     "site": "https://blogs.microsoft.com/on-the-issues/2014/04/03/microsoft-partners-with-usaid-to-help-end-extreme-poverty-by-2030/"
   },
   {
-    "document": "document5",
+    "document": "document8",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Nike",
+    "site": "https://www.unglobalcompact.org/participation/report/cop/create-and-submit/active/428930"
+  },
+  {
+    "document": "document9",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Adobe",
+    "site": "https://express.adobe.com/page/aSfqkxs22RuSn/"
+  },
+  {
+    "document": "document10",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Ibm",
+    "site": "https://developer.ibm.com/conferences/digital-developer-conference-call-for-code/sk-zero-hunger/"
+  },
+  {
+    "document": "document11",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/geforce-now/games/"
+  },
+  {
+    "document": "document12",
     "SDG_Number": 2,
     "SDG": "Zero hunger",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_2"
   },
   {
-    "document": "document6",
+    "document": "document13",
     "SDG_Number": 2,
     "SDG": "Zero hunger",
     "Company": "Unibo",
     "site": "https://site.unibo.it/almagoals/en/goals/2-zero-hunger"
   },
   {
-    "document": "document7",
+    "document": "document14",
     "SDG_Number": 2,
     "SDG": "Zero hunger",
     "Company": "Google",
-    "site": "https://artsandculture.google.com/story/zero-hunger-mural-united-nations/JAXxGlDTbZmJLQ?hl=en"
+    "site": "https://developers.google.com/community/gdsc-solution-challenge/UN-goals"
   },
   {
-    "document": "document8",
+    "document": "document15",
     "SDG_Number": 2,
     "SDG": "Zero hunger",
     "Company": "Microsoft",
-    "site": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4GSkV"
+    "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
   },
   {
-    "document": "document9",
+    "document": "document16",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Nike",
+    "site": "https://www.psfk.com/2022/01/nike-shifts-focus-to-mental-health.html"
+  },
+  {
+    "document": "document17",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Adobe",
+    "site": "https://benefits.adobe.com/us/health-and-wellbeing"
+  },
+  {
+    "document": "document18",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/ibm/responsibility/employee_well_being.shtml"
+  },
+  {
+    "document": "document19",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/benefits/well-being/"
+  },
+  {
+    "document": "document20",
     "SDG_Number": 3,
     "SDG": "Good health and well-being",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_3"
   },
   {
-    "document": "document10",
+    "document": "document21",
     "SDG_Number": 3,
     "SDG": "Good health and well-being",
     "Company": "Unibo",
-    "site": "https://almaorienta.unibo.it/almagoals/en/covid-19/good-health-and-well-being"
+    "site": "https://site.unibo.it/almagoals/en/covid-19/good-health-and-well-being"
   },
   {
-    "document": "document11",
+    "document": "document22",
     "SDG_Number": 3,
     "SDG": "Good health and well-being",
     "Company": "Google",
-    "site": "https://talksat.withgoogle.com/explore/categories/health-wellbeing"
+    "site": "https://careers.google.com/benefits/"
   },
   {
-    "document": "document12",
+    "document": "document23",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Nike",
+    "site": "https://news.nike.com/news/nike-mark-parker-announce-commitment-to-chinese-schools-2016"
+  },
+  {
+    "document": "document24",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Adobe",
+    "site": "https://www.adobe.com/education.html"
+  },
+  {
+    "document": "document25",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/ibm/responsibility/2015/communities/education.html"
+  },
+  {
+    "document": "document26",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/training/"
+  },
+  {
+    "document": "document27",
     "SDG_Number": 4,
     "SDG": "Quality education",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_4"
   },
   {
-    "document": "document13",
+    "document": "document28",
     "SDG_Number": 4,
     "SDG": "Quality education",
     "Company": "Unibo",
     "site": "https://site.unibo.it/almagoals/en/goals/4-quality-education"
   },
   {
-    "document": "document14",
+    "document": "document29",
     "SDG_Number": 4,
     "SDG": "Quality education",
     "Company": "Google",
     "site": "https://edu.google.com/"
   },
   {
-    "document": "document15",
+    "document": "document30",
     "SDG_Number": 4,
     "SDG": "Quality education",
     "Company": "Microsoft",
-    "site": "https://news.microsoft.com/apac/2021/05/05/microsoft-unveils-immersive-education-solutions-to-inspire-educators-in-reimagining-learning-experiences/"
+    "site": "https://www.microsoft.com/en-us/education"
   },
   {
-    "document": "document16",
+    "document": "document31",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/sdg-5-gender-equality"
+  },
+  {
+    "document": "document32",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Adobe",
+    "site": "https://blog.adobe.com/en/publish/2021/03/08/iwd-how-adobe-supports-women-in-the-workplace"
+  },
+  {
+    "document": "document33",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/impact/be-equal/communities/women/"
+  },
+  {
+    "document": "document34",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/"
+  },
+  {
+    "document": "document35",
     "SDG_Number": 5,
     "SDG": "Gender equality",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Gender_equality"
   },
   {
-    "document": "document17",
+    "document": "document36",
     "SDG_Number": 5,
     "SDG": "Gender equality",
     "Company": "Unibo",
     "site": "https://www.unibo.it/it/ateneo/chi-siamo/piano-di-uguaglianza-di-genere"
   },
   {
-    "document": "document18",
+    "document": "document37",
     "SDG_Number": 5,
     "SDG": "Gender equality",
     "Company": "Google",
-    "site": "https://www.forbes.com/sites/ruthumoh/2020/05/05/google-diversity-report-shows-little-progress-for-women-and-people-of-color/"
+    "site": "https://www.comparably.com/companies/google/studies/gender-equality"
   },
   {
-    "document": "document19",
+    "document": "document38",
     "SDG_Number": 5,
     "SDG": "Gender equality",
     "Company": "Microsoft",
     "site": "https://news.microsoft.com/en-au/features/microsoft-partners-champion-gender-equality/"
   },
   {
-    "document": "document20",
+    "document": "document39",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/water"
+  },
+  {
+    "document": "document40",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/it/video/6-clean-water-and-sanitation-the-17-global-goals-circle-badges-icons-background-concept/497483532?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document41",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Ibm",
+    "site": "https://developer.ibm.com/conferences/digital-developer-conference-call-for-code/sk-clean-water-and-sanitation/"
+  },
+  {
+    "document": "document42",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Nvidia",
+    "site": "https://challengerocket.com/nvidia/works/clean-water-ai-3bbfed"
+  },
+  {
+    "document": "document43",
     "SDG_Number": 6,
     "SDG": "Clean water and sanitation",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_6"
   },
   {
-    "document": "document21",
+    "document": "document44",
     "SDG_Number": 6,
     "SDG": "Clean water and sanitation",
     "Company": "Unibo",
-    "site": "https://site.unibo.it/almagoals/en/goals/6-clean-water-and-sanitation"
+    "site": "https://site.unibo.it/almagoals/en/projects/reducing-water-consumption"
   },
   {
-    "document": "document22",
+    "document": "document45",
     "SDG_Number": 6,
     "SDG": "Clean water and sanitation",
     "Company": "Google",
-    "site": "https://artsandculture.google.com/asset/goal-6-clean-water-sanitation/kgEBLWWmuWiz_A"
+    "site": "https://artsandculture.google.com/asset/goal-6-clean-water-sanitation/kgEBLWWmuWiz_A?hl=en"
   },
   {
-    "document": "document23",
+    "document": "document46",
     "SDG_Number": 6,
     "SDG": "Clean water and sanitation",
     "Company": "Microsoft",
     "site": "https://blogs.microsoft.com/blog/2020/09/21/microsoft-will-replenish-more-water-than-it-consumes-by-2030/"
   },
   {
-    "document": "document24",
+    "document": "document47",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/carbon-energy"
+  },
+  {
+    "document": "document48",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Adobe",
+    "site": "https://www.enelgreenpower.com/our-offer/our-partners/adobe"
+  },
+  {
+    "document": "document49",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/ibm/environment/climate/renewable_energy.shtml"
+  },
+  {
+    "document": "document50",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/industries/energy/power-utilities/"
+  },
+  {
+    "document": "document51",
     "SDG_Number": 7,
     "SDG": "Affordable and clean energy",
     "Company": "Wikipedia",
-    "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_7"
+    "site": "https://en.wikipedia.org/wiki/Renewable_energy"
   },
   {
-    "document": "document25",
+    "document": "document52",
     "SDG_Number": 7,
     "SDG": "Affordable and clean energy",
     "Company": "Unibo",
-    "site": "https://site.unibo.it/almagoals/en/goals/7-affordable-and-clean-energy"
+    "site": "https://site.unibo.it/almagoals/en/projects/renewable-energy-and-efficiency"
   },
   {
-    "document": "document26",
+    "document": "document53",
     "SDG_Number": 7,
     "SDG": "Affordable and clean energy",
     "Company": "Google",
     "site": "https://www.google.com/about/datacenters/cleanenergy/"
   },
   {
-    "document": "document27",
+    "document": "document54",
     "SDG_Number": 7,
     "SDG": "Affordable and clean energy",
     "Company": "Microsoft",
-    "site": "https://www.microsoft.com/en-us/industry/energy/transition-to-clean-energy"
+    "site": "https://blogs.microsoft.com/on-the-issues/2021/10/02/climate-change-net-zero-us-budget-reconciliation/"
   },
   {
-    "document": "document28",
+    "document": "document55",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/sdg-8-work-and-growth"
+  },
+  {
+    "document": "document56",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/it/images/sdgs-8-decent-work-and-economic-growth/447699470?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document57",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/downloads/cas/8QRMDVOZ"
+  },
+  {
+    "document": "document58",
     "SDG_Number": 8,
     "SDG": "Decent work and economic growth",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_8"
   },
   {
-    "document": "document29",
+    "document": "document59",
     "SDG_Number": 8,
     "SDG": "Decent work and economic growth",
     "Company": "Unibo",
     "site": "https://almaorienta.unibo.it/almagoals/en/covid-19/decent-work-and-economic-growth"
   },
   {
-    "document": "document30",
+    "document": "document60",
     "SDG_Number": 8,
     "SDG": "Decent work and economic growth",
     "Company": "Google",
-    "site": "https://books.google.com/books/about/Decent_Work_and_Economic_Growth.html?id=czwpuAEACAAJ"
+    "site": "https://artsandculture.google.com/asset/goal-8-decent-work-economic-growth/6QFTFEP3DHmSMA?hl=en"
   },
   {
-    "document": "document31",
+    "document": "document61",
     "SDG_Number": 8,
     "SDG": "Decent work and economic growth",
     "Company": "Microsoft",
     "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
   },
   {
-    "document": "document32",
+    "document": "document62",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Nike",
+    "site": "https://news.nike.com/news/sustainable-innovation"
+  },
+  {
+    "document": "document63",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/images/09-industry-innovation-and-infrastructure-icon-corporate-social-responsibility-sustainable-development-goals-sdg-sign-pictogram-for-ad-web-mobile-app-promo-design-element-for-educational-school/409412455?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document64",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/blogs/systems/innovations-in-it-infrastructure-at-think-2021/"
+  },
+  {
+    "document": "document65",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/industries/"
+  },
+  {
+    "document": "document66",
     "SDG_Number": 9,
     "SDG": "Industry, innovation and infrastructure",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_9"
   },
   {
-    "document": "document33",
+    "document": "document67",
     "SDG_Number": 9,
     "SDG": "Industry, innovation and infrastructure",
     "Company": "Unibo",
-    "site": "https://almaorienta.unibo.it/almagoals/en/goals/9-industry-innovation-and-infrastructure"
+    "site": "https://site.unibo.it/almagoals/en/covid-19/industry-innovation-and-infrastructure"
   },
   {
-    "document": "document34",
+    "document": "document68",
     "SDG_Number": 9,
     "SDG": "Industry, innovation and infrastructure",
     "Company": "Google",
-    "site": "https://books.google.com/books/about/Industry_Innovation_and_Infrastructure.html?id=jHVduAEACAAJ"
+    "site": "https://www.google.com/about/datacenters/innovations/"
   },
   {
-    "document": "document35",
+    "document": "document69",
     "SDG_Number": 9,
     "SDG": "Industry, innovation and infrastructure",
     "Company": "Microsoft",
-    "site": "https://azure.microsoft.com/it-it/blog/azure-iot-drives-next-wave-innovation-in-infrastructure-and-energy/"
+    "site": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4GSkV"
   },
   {
-    "document": "document36",
+    "document": "document70",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/sustainable-development-goals-sdgs"
+  },
+  {
+    "document": "document71",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/it/images/reduced-inequalities-color-icon-corporate-social-responsibility/466318239?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document72",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Ibm",
+    "site": "https://www.businessinsider.com/sc/ibm-challenge-inequality-and-expand-the-global-workforce-2021-10"
+  },
+  {
+    "document": "document73",
     "SDG_Number": 10,
     "SDG": "Reduced inequalities",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_10"
   },
   {
-    "document": "document37",
+    "document": "document74",
     "SDG_Number": 10,
     "SDG": "Reduced inequalities",
     "Company": "Unibo",
-    "site": "https://almaorienta.unibo.it/almagoals/en/goals/10-reduced-inequalities"
+    "site": "https://site.unibo.it/almagoals/en/projects/university-gender-inequality-index"
   },
   {
-    "document": "document38",
+    "document": "document75",
     "SDG_Number": 10,
     "SDG": "Reduced inequalities",
     "Company": "Google",
-    "site": "https://artsandculture.google.com/entity/sustainable-development-goal-10-reduced-inequalities/g11gbmj_1qj?hl=en"
+    "site": "https://artsandculture.google.com/asset/goal-10-reduced-inequalities/GwHy5K5uCmUXUg?hl=en"
   },
   {
-    "document": "document39",
+    "document": "document76",
     "SDG_Number": 10,
     "SDG": "Reduced inequalities",
     "Company": "Microsoft",
     "site": "https://news.microsoft.com/en-xm/2020/11/02/the-race-against-economic-inequality-within-emerging-markets-a-case-for-smes/"
   },
   {
-    "document": "document40",
+    "document": "document77",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/partnerships-collaborations"
+  },
+  {
+    "document": "document78",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/it/images/sdgs-11-sustainable-cities-and-communities/447699450?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document79",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/downloads/cas/2JYLM4ZA"
+  },
+  {
+    "document": "document80",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/industries/smart-cities/"
+  },
+  {
+    "document": "document81",
     "SDG_Number": 11,
     "SDG": "Sustainable cities and communities",
     "Company": "Wikipedia",
-    "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_11"
+    "site": "https://en.wikipedia.org/wiki/Sustainable_city"
   },
   {
-    "document": "document41",
+    "document": "document82",
     "SDG_Number": 11,
     "SDG": "Sustainable cities and communities",
     "Company": "Unibo",
     "site": "https://site.unibo.it/almagoals/en/goals/11-sustainable-cities-and-communities"
   },
   {
-    "document": "document42",
+    "document": "document83",
     "SDG_Number": 11,
     "SDG": "Sustainable cities and communities",
     "Company": "Google",
-    "site": "https://artsandculture.google.com/asset/global-goal-11-sustainable-cities-and-communities-the-global-goals/MQFaE2vci75KVg"
+    "site": "https://books.google.com/books/about/Sustainable_Cities_and_Communities.html?id=CIFKuAEACAAJ"
   },
   {
-    "document": "document43",
+    "document": "document84",
     "SDG_Number": 11,
     "SDG": "Sustainable cities and communities",
     "Company": "Microsoft",
     "site": "https://techcommunity.microsoft.com/t5/green-tech-blog/a-smart-city-is-a-sustainable-city/ba-p/3040537"
   },
   {
-    "document": "document44",
+    "document": "document85",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/sdg-12-consumption-and-production"
+  },
+  {
+    "document": "document86",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/images/responsible-consumption-and-production-black-icon-corporate-social-responsibility-sustainable-development-goals-sdg-color-sign-reduce-the-negative-impact-on-the-environment-and-on-human-health/427519994"
+  },
+  {
+    "document": "document87",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Ibm",
+    "site": "https://developer.ibm.com/conferences/digital-developer-conference-call-for-code/sk-production-consumption/"
+  },
+  {
+    "document": "document88",
     "SDG_Number": 12,
     "SDG": "Responsible consumption and production",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_12"
   },
   {
-    "document": "document45",
+    "document": "document89",
     "SDG_Number": 12,
     "SDG": "Responsible consumption and production",
     "Company": "Unibo",
     "site": "https://site.unibo.it/almagoals/en/goals/12-responsible-consumption-and-production"
   },
   {
-    "document": "document46",
+    "document": "document90",
     "SDG_Number": 12,
     "SDG": "Responsible consumption and production",
     "Company": "Google",
     "site": "https://books.google.com/books/about/Responsible_Consumption_and_Production.html?id=qj83uAEACAAJ"
   },
   {
-    "document": "document47",
+    "document": "document91",
     "SDG_Number": 12,
     "SDG": "Responsible consumption and production",
     "Company": "Microsoft",
     "site": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4GSkV"
   },
   {
-    "document": "document48",
+    "document": "document92",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/carbon-energy"
+  },
+  {
+    "document": "document93",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Adobe",
+    "site": "https://blog.adobe.com/en/publish/2020/10/26/working-together-for-climate-action"
+  },
+  {
+    "document": "document94",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/ibm/environment/climate/position.shtml"
+  },
+  {
+    "document": "document95",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Nvidia",
+    "site": "https://blogs.nvidia.com/blog/2021/11/16/ai-science-climate-change/"
+  },
+  {
+    "document": "document96",
     "SDG_Number": 13,
     "SDG": "Climate action",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Climate_action"
   },
   {
-    "document": "document49",
+    "document": "document97",
     "SDG_Number": 13,
     "SDG": "Climate action",
     "Company": "Unibo",
     "site": "https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2020/459595"
   },
   {
-    "document": "document50",
+    "document": "document98",
     "SDG_Number": 13,
     "SDG": "Climate action",
     "Company": "Google",
-    "site": "https://sustainability.google/commitments/"
+    "site": "https://blog.google/outreach-initiatives/sustainability/dear-earth/"
   },
   {
-    "document": "document51",
+    "document": "document99",
     "SDG_Number": 13,
     "SDG": "Climate action",
     "Company": "Microsoft",
     "site": "https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/"
   },
   {
-    "document": "document52",
+    "document": "document100",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/water"
+  },
+  {
+    "document": "document101",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/images/sustainable-development-goal-14-life-below-water-sdg-concept-3d-render/453482353?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document102",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/case-studies/the-wilson-center"
+  },
+  {
+    "document": "document103",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Nvidia",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document104",
     "SDG_Number": 14,
     "SDG": "Life below water",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_14"
   },
   {
-    "document": "document53",
+    "document": "document105",
     "SDG_Number": 14,
     "SDG": "Life below water",
     "Company": "Unibo",
-    "site": "https://site.unibo.it/almagoals/en/goals/14-life-below-water"
+    "site": "https://site.unibo.it/almagoals/en/projects/blue-growth-unibo"
   },
   {
-    "document": "document54",
+    "document": "document106",
     "SDG_Number": 14,
     "SDG": "Life below water",
     "Company": "Google",
     "site": "https://artsandculture.google.com/story/life-below-water-why-it-matters-united-nations/owXxAQt2F4H_oQ?hl=en"
   },
   {
-    "document": "document55",
+    "document": "document107",
     "SDG_Number": 14,
     "SDG": "Life below water",
     "Company": "Microsoft",
     "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
   },
   {
-    "document": "document56",
+    "document": "document108",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Nike",
+    "site": "https://www.nssmag.com/en/fashion/14913/nike-saves-the-earth-with-sustainable-bubbles"
+  },
+  {
+    "document": "document109",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/it/search?k=%22life%20on%20land%22"
+  },
+  {
+    "document": "document110",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Ibm",
+    "site": "https://www.ibm.com/downloads/cas/VDM5LGBZ"
+  },
+  {
+    "document": "document111",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Nvidia",
+    "site": "https://blogs.nvidia.com/blog/2021/11/12/earth-2-supercomputer/"
+  },
+  {
+    "document": "document112",
     "SDG_Number": 15,
     "SDG": "Life on land",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Life_on_Land"
   },
   {
-    "document": "document57",
+    "document": "document113",
     "SDG_Number": 15,
     "SDG": "Life on land",
     "Company": "Unibo",
-    "site": "https://site.unibo.it/almagoals/en/projects/life-agrowetlands-ii-smart-water-and-soil-salinity-management-in-agro-wetlands"
+    "site": "https://site.unibo.it/almagoals/en/goals/15-life-on-land"
   },
   {
-    "document": "document58",
+    "document": "document114",
     "SDG_Number": 15,
     "SDG": "Life on land",
     "Company": "Google",
-    "site": "https://artsandculture.google.com/asset/goal-15-life-on-land/gwGJiz3fknJllA?hl=en"
+    "site": "https://artsandculture.google.com/asset/goal-15-life-on-land/gwGJiz3fknJllA"
   },
   {
-    "document": "document59",
+    "document": "document115",
     "SDG_Number": 15,
     "SDG": "Life on land",
     "Company": "Microsoft",
-    "site": "https://inculture.microsoft.com/social-good/protecting-our-planet/"
+    "site": "https://blogs.microsoft.com/blog/2022/04/21/microsoft-and-partners-are-building-a-more-sustainable-future/"
   },
   {
-    "document": "document60",
+    "document": "document116",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Nike",
+    "site": "https://www.globalgoals.org/goals/16-peace-justice-and-strong-institutions/"
+  },
+  {
+    "document": "document117",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Adobe",
+    "site": "https://stock.adobe.com/it/video/un-sustainable-development-goals-16-peace-justice-and-strong-institutions/349529323?as_campaign=ftmigration2&as_channel=dpcft&as_campclass=brand&as_source=ft_web&as_camptype=acquisition&as_audience=users&as_content=closure_asset-detail-page"
+  },
+  {
+    "document": "document118",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Nvidia",
+    "site": "https://ec.europa.eu/eurostat/web/sdi/peace-justice-and-strong-institutions"
+  },
+  {
+    "document": "document119",
     "SDG_Number": 16,
     "SDG": "Peace, justice and strong institutions",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goal_16"
   },
   {
-    "document": "document61",
+    "document": "document120",
     "SDG_Number": 16,
     "SDG": "Peace, justice and strong institutions",
     "Company": "Unibo",
-    "site": "https://site.unibo.it/almagoals/en/projects/istitutional-accountability-and-transparency"
+    "site": "https://site.unibo.it/almagoals/en/goals/16-peace-justice-and-strong-institutions"
   },
   {
-    "document": "document62",
+    "document": "document121",
     "SDG_Number": 16,
     "SDG": "Peace, justice and strong institutions",
     "Company": "Google",
     "site": "https://books.google.com/books/about/Peace_Justice_and_Strong_Institutions.html?id=c8EiuAEACAAJ"
   },
   {
-    "document": "document63",
+    "document": "document122",
     "SDG_Number": 16,
     "SDG": "Peace, justice and strong institutions",
     "Company": "Microsoft",
     "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
   },
   {
-    "document": "document64",
+    "document": "document123",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Nike",
+    "site": "https://purpose.nike.com/sustainable-development-goals-sdgs"
+  },
+  {
+    "document": "document124",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Adobe",
+    "site": "https://www.adobe.com/corporate-responsibility/sustainability/partnerships.html"
+  },
+  {
+    "document": "document125",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Ibm",
+    "site": "https://sustainabledevelopment.un.org/partnership/partners/?id=11058"
+  },
+  {
+    "document": "document126",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Nvidia",
+    "site": "https://www.nvidia.com/en-us/csr/"
+  },
+  {
+    "document": "document127",
     "SDG_Number": 17,
     "SDG": "Partnerships for the sustainable goals",
     "Company": "Wikipedia",
     "site": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals"
   },
   {
-    "document": "document65",
+    "document": "document128",
     "SDG_Number": 17,
     "SDG": "Partnerships for the sustainable goals",
     "Company": "Unibo",
     "site": "https://site.unibo.it/almagoals/en"
   },
   {
-    "document": "document66",
+    "document": "document129",
     "SDG_Number": 17,
     "SDG": "Partnerships for the sustainable goals",
     "Company": "Google",
     "site": "https://www.data4sdgs.org/partner/google"
   },
   {
-    "document": "document67",
+    "document": "document130",
     "SDG_Number": 17,
     "SDG": "Partnerships for the sustainable goals",
     "Company": "Microsoft",
-    "site": "https://www.microsoft.com/en-us/corporate-responsibility/un-sustainable-development-goals"
+    "site": "https://blogs.microsoft.com/blog/2022/04/21/microsoft-and-partners-are-building-a-more-sustainable-future/"
   }
 ]
