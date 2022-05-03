@@ -4,7 +4,6 @@ achieve equality 1
 achieve level 1
 achieve literacy 1
 achieve organization 1
-achieve organization 1
 achieve sdj 1
 achieve skill 1
 achieve target 1
@@ -21,8 +20,6 @@ affect percent 1
 attempt institution 1
 attend school 1
 base learning 1
-be datum 1
-be organization 1
 be organization 1
 become datum 1
 become indicator 1
@@ -31,7 +28,6 @@ boost skill 1
 boost training 1
 build facility 1
 build infrastructure 1
-build means 1
 build school 1
 build title 1
 choose mission 1
@@ -43,8 +39,6 @@ consider issue 1
 consider statement 1
 contribute gender 1
 contribute mooc 1
-contribute mooc 1
-contribute time 1
 contribute time 1
 delete indicator 1
 deploy model 1
@@ -73,7 +67,6 @@ enjoy team 1
 enrol level 1
 ensure access 1
 ensure education 1
-ensure education 1
 ensure health 1
 eradicate poverty 1
 expand c 1
@@ -94,11 +87,9 @@ gain knowledge 1
 get hand 1
 get training 1
 give access 1
-give access 1
 give attention 1
 give course 1
 give individual 1
-give woman 1
 give woman 1
 have Volume 1
 have access 1
@@ -143,13 +134,9 @@ measure indicator 1
 measure month 1
 measure progress 1
 offer platform 1
-offer platform 1
 offer resource 1
 open audience 1
-open audience 1
 open education 1
-open education 1
-open philosophy 1
 open philosophy 1
 overlook aspect 1
 promote development 1
@@ -206,6 +193,5 @@ use student 1
 use technology 1
 use trip 1
 work character 1
-work issue 1
 work issue 1
 work world 1

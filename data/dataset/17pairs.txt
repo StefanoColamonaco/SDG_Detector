@@ -2,7 +2,6 @@ account consumption 1
 account energy 1
 achieve assistance 1
 achieve target 1
-achieve target 1
 address debt 1
 attain policy 1
 attain sustainability 1
@@ -10,15 +9,11 @@ base rule 1
 build experience 1
 build initiative 1
 call attention 1
-call attention 1
-call plan 1
 call plan 1
 complement partnership 1
 complement product 1
 decrease population 1
-decrease population 1
 decrease sub 1
-develop country 1
 develop country 1
 develop measurement 1
 develop source 1
@@ -31,7 +26,6 @@ enable technology 1
 encourage provider 1
 enhance coherence 1
 enhance cooperation 1
-enhance cooperation 1
 enhance knowledge 1
 enhance stability 1
 enhance support 1
@@ -39,9 +33,7 @@ enhance use 1
 ensure rule 1
 establish policy 1
 expand access 1
-expand access 1
 expand service 1
-facilitate access 1
 facilitate access 1
 foster financing 1
 grow respect 1
@@ -53,7 +45,6 @@ implement country 1
 implement regime 1
 improve capacity 1
 improve efficiency 1
-improve efficiency 1
 include access 1
 include target 1
 include word 1
@@ -62,8 +53,6 @@ increase export 1
 increase mix 1
 increase share 1
 make country 1
-make country 1
-make progress 1
 make progress 1
 mobilize knowledge 1
 mobilize resource 1
@@ -76,7 +65,6 @@ promote system 1
 provide cent 1
 realize implementation 1
 reduce distress 1
-remain region 1
 remain region 1
 remain sub 1
 respect space 1

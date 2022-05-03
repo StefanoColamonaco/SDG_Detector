@@ -10,7 +10,6 @@ build possibility 1
 configure mini-grid 1
 contribute generating 1
 contribute supply 1
-contribute supply 1
 develop accordance 1
 develop country 1
 develop support 1
@@ -38,15 +37,12 @@ grow use 1
 have ability 1
 have country 1
 have energy 1
-have energy 1
 have flow 1
 have goal 1
 have indicator 1
 have level 1
 have nation 1
-have nation 1
 have share 1
-have target 1
 have target 1
 include access 1
 include target 1

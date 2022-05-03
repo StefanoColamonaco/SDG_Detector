@@ -7,7 +7,6 @@ act card 1
 act tool 1
 add volume 1
 address need 1
-address need 1
 address scarcity 1
 address solution 1
 affect ability 1
@@ -22,7 +21,6 @@ assess progress 1
 assess term 1
 attend school 1
 base evidence 1
-be indicator 1
 be reason 1
 cause pandemic 1
 cause reduction 1
@@ -49,7 +47,6 @@ eliminate release 1
 enable society 1
 enable target 1
 end defecation 1
-end ed 1
 ensure availability 1
 ensure supplies 1
 ensure withdrawal 1
@@ -106,17 +103,13 @@ increase water 1
 intensify change 1
 intensify shortage 1
 lack access 1
-lack access 1
 lack facility 1
-lack people 1
 lack people 1
 lack sanitation 1
 lack today 1
 lack water 1
 live area 1
 live country 1
-live country 1
-live people 1
 live people 1
 locate premise 1
 make investment 1
