@@ -1,5 +1,13 @@
 import stanza
 import nltk
+import argparse
+
+# argument parsing
+parser = argparse.ArgumentParser(description='SDG Detector is a software that checks the presence of SDG indicators in provided texts.', formatter_class=argparse.RawTextHelpFormatter)
+parser.add_argument("-m", "--model", default=2, type=int,  help="specify the model that will be used for the classification:\n 1 - model based on manually added data in /data/trainingURL\
+s\n 2 - model based on pairs obtained from targets from /data/sdgs\n 3 - model based on the generated set of documents in /data/automatedTrainingURLs", metavar="M")
+parser.add_argument("-fr", "--force-rebuild", action='store_true', help="rebuild the model even if already present in /models")
+opt = vars(parser.parse_args())
 
 stanza.download('en')
 nltk.download('wordnet')
@@ -10,7 +18,6 @@ from textRetriever import retrieve, retrieveTrainigTextsFor
 from analysis import initialize,check_sdg
 from textClassifier import generateDatasetFor, writePairsForSDG, mergeAndOrderTuples, overwritePairsForSDG, removeDuplicatesFromOrderedTuples
 from trainingDocumentsRetrieve import getFragmentsFromDocument, automaticTrainingDocumentRetrieve, getInfoFromDocument
-
 
 generateDataset = 0
 # if 1: Will generate dataset
@@ -54,7 +61,7 @@ if __name__ == "__main__":
                 writePairsForSDG(sdg, positivePairs, negativePairs)
             print("\nSTANDARD GENERATION ENDED SUCCESSFULLY\n")
     texts = retrieve()
-    initialize()
+    initialize(opt['model'], opt['force_rebuild'])
     for text in texts:
         check_sdg(text)
         print("\n SINGLE TASK COMPLETED \n ")

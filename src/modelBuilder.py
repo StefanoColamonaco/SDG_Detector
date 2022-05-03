@@ -16,7 +16,7 @@ dataset = dict() # dictionary of data useful for training and testing classifier
 classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
 tpairs = dict() # the storage of verb-object pairs for targets 
 
-def initialize(training_option):
+def build_model(training_option):
     """
     Loads data and initializes the classifiers 
     Args:
@@ -127,4 +127,4 @@ if __name__ == "__main__":
     if not 1 <= training_option <= 3:
         print('This option doesn\'t exist.')
         exit()
-    initialize(training_option)
+    build_model(training_option)

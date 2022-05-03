@@ -5,7 +5,7 @@ import json
 import pickle
 
 from textClassifier import vrbobj_pairs
-from modelBuilder import initialize
+from modelBuilder import build_model
 
 # loading goals and targets
 # goal regex: Goal ([0-9]+): ([a-zA-Z0-9-,.:! ]+) /// g1 = goal number /// g2 = goal text
@@ -15,7 +15,7 @@ classifier = {} # dictionary of classifiers goal(key)->classifier(entry)
 tpairs = dict() # the storage of verb-object pairs for targets 
 tdict = {} # the storage of verb-object pairs for sentences in text
 
-def initialize(data_opt=2):
+def initialize(data_opt, fr):
     """
     Loads data and initializes the classifiers 
     Args:
@@ -23,13 +23,16 @@ def initialize(data_opt=2):
     """
     global classifier
     preload()
-    try:
-        filename = "../models/model" + ("00" + str(data_opt))[-2:] + ".pickle"
-        classifier = pickle.load(open(filename, 'rb'))
-        print("model found and loaded")
-    except:
-        print("required classifiers not found in models, proceeding to training...")
-        classifier = initialize(data_opt)
+    if fr:
+        classifier = build_model(data_opt)
+    else:
+        try:
+            filename = "../models/model" + ("00" + str(data_opt))[-2:] + ".pickle"
+            classifier = pickle.load(open(filename, 'rb'))
+            print("model found and loaded")
+        except:
+            print("required classifiers not found in models, proceeding to training...")
+            classifier = build_model(data_opt)
     print("\n INITIALIZATION COMPLETED \n")
             
 def preload():
