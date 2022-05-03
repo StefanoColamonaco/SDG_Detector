@@ -46,7 +46,6 @@ develop institution 1
 develop level 1
 develop text 1
 drop number 1
-drop percent 1
 eliminate form 1
 encompass volume 1
 enforce law 1
@@ -54,7 +53,6 @@ ensure access 1
 ensure decision 1
 ensure decision- 1
 ensure decision-making 1
-ensure ed 1
 ensure making 1
 ensure registration 1
 ensure text 1

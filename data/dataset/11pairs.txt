@@ -5,7 +5,6 @@ achieve indicator 1
 achieve target 1
 act design 1
 act shelter 1
-address challenge 1
 address change 1
 adopt agenda 1
 adopt change 1
@@ -34,7 +33,6 @@ attribute disaster 1
 balance development 1
 balance sustainability 1
 be challenge 1
-be datum 1
 be instance 1
 be park 1
 be system 1
@@ -164,7 +162,6 @@ increase management 1
 increase number 1
 increase planning 1
 increase temperature 1
-increase temperature 1
 increase text 1
 intertwine city 1
 introduce concept 1
@@ -172,7 +169,6 @@ know form 1
 lack coordination 1
 lead exposure 1
 lead risk 1
-live city 1
 live city 1
 live people 1
 live population 1

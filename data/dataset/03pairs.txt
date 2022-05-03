@@ -9,7 +9,6 @@ achieve ed 1
 achieve target 1
 acknowledge need 1
 acknowledge process 1
-address challenge 1
 address issue 1
 address percent 1
 affirm right 1
@@ -111,7 +110,6 @@ end rate 1
 end year 1
 ensure access 1
 ensure life 1
-ensure life 1
 ensure reduction 1
 eradicate range 1
 estimate pollution 1
@@ -142,7 +140,6 @@ have 3.c 1
 have access 1
 have cent 1
 have child 1
-have country 1
 have country 1
 have density 1
 have doctor 1
@@ -193,7 +190,6 @@ lead pandemic 1
 learn people 1
 learn smoker 1
 leave coffer 1
-leave one 1
 link equality 1
 lose income 1
 lose inequity 1
@@ -222,7 +218,6 @@ neglect disease 1
 occur birth 1
 occur cent 1
 occur country 1
-occur day 1
 occur death 1
 occur half 1
 occur month 1

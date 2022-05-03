@@ -1,6 +1,4 @@
 access cost 1
-access cost 1
-access internet 1
 access internet 1
 achieve edit 1
 achieve objective 1
@@ -28,7 +26,6 @@ decline intensity 1
 decline outbreak 1
 decline quarter 1
 develop country 1
-develop country 1
 develop development 1
 develop focus 1
 develop infrastructure 1
@@ -45,7 +42,6 @@ enhance research 1
 ensure access 1
 ensure alia 1
 ensure environment 1
-estimate user 1
 estimate user 1
 facilitate development 1
 facilitate edit 1
@@ -85,8 +81,6 @@ measure indicator 1
 measure kilogram 1
 measure progress 1
 miss 9.c 1
-miss 9.c 1
-miss margin 1
 miss margin 1
 monitor fact 1
 name means 1
@@ -107,12 +101,9 @@ raise line 1
 raise share 1
 reach country 1
 reach end 1
-reach end 1
 reach increase 1
 reach ton 1
 reach use 1
-reach use 1
-reach world 1
 reach world 1
 realise city 1
 realise energy 1
@@ -131,7 +122,6 @@ spur commitment 1
 spur increase 1
 start emission 1
 start year 1
-suggest estimate 1
 suggest estimate 1
 support development 1
 support ed 1

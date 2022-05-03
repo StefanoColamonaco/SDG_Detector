@@ -48,6 +48,8 @@ def writePairsForSDG(sdg, positivePairs, negativePairs): #TODO: implementare eli
             f.write(text)
         
 def overwritePairsForSDG(sdg, positivePairs, negativePairs):
+    positivePairs = removeWeight(positivePairs)
+    negativePairs = removeWeight(negativePairs)
     stringnum = ""
     if(sdg < 10):
         stringnum = "0"
@@ -58,11 +60,23 @@ def overwritePairsForSDG(sdg, positivePairs, negativePairs):
         line = f.readline()
         while line:
             if( line.find("-1") != -1 ):
-                oldNegative.append( (line.split()[0],line.split()[1]) )
+                if(validate(line.split()[0],line.split()[1]) == 1):
+                    oldNegative.append( (line.split()[0],line.split()[1]) )
             else:
-                oldPositive.append( (line.split()[0],line.split()[1]) )
+                if(validate(line.split()[0],line.split()[1]) == 1):
+                    oldPositive.append( (line.split()[0],line.split()[1]) )
+
             line = f.readline()
+    #print("ordered:\n", orderTuples(oldPositive + positivePairs),"\n\n")
+    #print("no dup:\n", removeDuplicatesFromOrderedTuples(orderTuples(oldPositive + positivePairs)),"\n\n")
     writePairsForSDG(sdg, removeDuplicatesFromOrderedTuples(orderTuples(oldPositive + positivePairs)), removeDuplicatesFromOrderedTuples(orderTuples(oldNegative + negativePairs)))
+
+def removeWeight(tuples):
+    tmp = []
+    for t in tuples:
+        tmp.append((t[0],t[1]))
+    return tmp
+
 
 def generateDatasetFor(sdgNum, texts):
     allPairs = []
@@ -114,7 +128,7 @@ def getNouns(words):
 def validate(verb,noun):
     if(verb in blacklistedVerbs):
         return 0
-    if(noun in blacklistedNouns):
+    if(noun in blacklistedNouns or ("." in noun)):               # second condition is necessary due to a bug present in constituency parsing algorithm
         return 0
     for couple in blacklistedCouples:
         if(couple["verb"] == verb and couple["noun"] == noun):

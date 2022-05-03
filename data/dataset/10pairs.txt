@@ -18,7 +18,6 @@ associate issue 1
 base country 1
 be association 1
 be target 1
-be target 1
 be title 1
 bear employee 1
 bear proportion 1
@@ -39,14 +38,11 @@ develop institution 1
 discriminate month 1
 earn country 1
 eliminate corridor 1
-eliminate corridor 1
-eliminate cost 1
 eliminate cost 1
 eliminate law 1
 empower inclusion 1
 empower title 1
 encourage assistance 1
-ensure ed 1
 ensure opportunity 1
 ensure representation 1
 ensure title 1
@@ -62,7 +58,6 @@ facilitate title 1
 have cent 1
 have country 1
 have indicator 1
-have indicator 1
 have level 1
 have period 1
 have policy 1
@@ -72,7 +67,6 @@ have relevance 1
 have rights 1
 have set 1
 have target 1
-have target 1
 implement policy 1
 implement principle 1
 implement title 1
@@ -80,7 +74,6 @@ improve measure 1
 improve regulation 1
 improve title 1
 involve factor 1
-jump jump 1
 know prosperity 1
 live cent 1
 live environment 1
@@ -112,13 +105,10 @@ promote target 1
 receive cent 1
 receive country 1
 reduce cent 1
-reduce cent 1
-reduce cost 1
 reduce cost 1
 reduce country 1
 reduce inequality 1
 reduce order 1
-reduce percent 1
 reduce percent 1
 report cent 1
 report range 1
