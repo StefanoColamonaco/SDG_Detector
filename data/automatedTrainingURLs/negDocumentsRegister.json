@@ -3,322 +3,2198 @@
     "document": "document1",
     "SDG_Number": 1,
     "SDG": "No poverty",
-    "Company": "company",
+    "Company": "Nike",
     "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document2",
     "SDG_Number": 1,
     "SDG": "No poverty",
-    "Company": "company",
-    "site": "https://tfn.scot/news/christian-charity-chief-savages-the-scandal-of-poverty"
+    "Company": "Adobe",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document3",
-    "SDG_Number": 2,
-    "SDG": "Zero hunger",
-    "Company": "company",
-    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Ibm",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document4",
-    "SDG_Number": 2,
-    "SDG": "Zero hunger",
-    "Company": "company",
-    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Ibm",
+    "site": "https://tfn.scot/news/christian-charity-chief-savages-the-scandal-of-poverty"
   },
   {
     "document": "document5",
-    "SDG_Number": 2,
-    "SDG": "Zero hunger",
-    "Company": "company",
-    "site": "https://www.theguardian.com/sustainable-business/2015/jul/21/food-waste-scandal-89-million-tonnes-binned-hunger"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Nvidia",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document6",
-    "SDG_Number": 3,
-    "SDG": "Good health and well-being",
-    "Company": "company",
-    "site": "https://www.bbc.com/news/business-47911210"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Wikipedia",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document7",
-    "SDG_Number": 3,
-    "SDG": "Good health and well-being",
-    "Company": "company",
-    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Wikipedia",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg1-no-poverty.html"
   },
   {
     "document": "document8",
-    "SDG_Number": 3,
-    "SDG": "Good health and well-being",
-    "Company": "company",
-    "site": "https://www.hec.edu/en/news-room/impact-employee-health-and-wellbeing-company-performance"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Unibo",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document9",
-    "SDG_Number": 4,
-    "SDG": "Quality education",
-    "Company": "company",
-    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Unibo",
+    "site": "https://tfn.scot/news/christian-charity-chief-savages-the-scandal-of-poverty"
   },
   {
     "document": "document10",
-    "SDG_Number": 4,
-    "SDG": "Quality education",
-    "Company": "company",
-    "site": "https://www.jstor.org/stable/20753376"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Google",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document11",
-    "SDG_Number": 4,
-    "SDG": "Quality education",
-    "Company": "company",
-    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Microsoft",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document12",
-    "SDG_Number": 5,
-    "SDG": "Gender equality",
-    "Company": "company",
-    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Microsoft",
+    "site": "https://tfn.scot/news/christian-charity-chief-savages-the-scandal-of-poverty"
   },
   {
     "document": "document13",
-    "SDG_Number": 5,
-    "SDG": "Gender equality",
-    "Company": "company",
-    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Tesla",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document14",
-    "SDG_Number": 5,
-    "SDG": "Gender equality",
-    "Company": "company",
-    "site": "https://www.theguardian.com/games/2021/dec/28/riot-games-to-pay-100m-to-settle-gender-discrimination-lawsuit"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Tesla",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg1-no-poverty.html"
   },
   {
     "document": "document15",
-    "SDG_Number": 6,
-    "SDG": "Clean water and sanitation",
-    "Company": "company",
-    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Adidas",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
   },
   {
     "document": "document16",
-    "SDG_Number": 6,
-    "SDG": "Clean water and sanitation",
-    "Company": "company",
-    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "Adidas",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg1-no-poverty.html"
   },
   {
     "document": "document17",
-    "SDG_Number": 7,
-    "SDG": "Affordable and clean energy",
-    "Company": "company",
-    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Nike",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document18",
-    "SDG_Number": 7,
-    "SDG": "Affordable and clean energy",
-    "Company": "company",
-    "site": "https://www.energyandpolicy.org/utility-corruption/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Nike",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document19",
-    "SDG_Number": 7,
-    "SDG": "Affordable and clean energy",
-    "Company": "company",
-    "site": "https://www.citizensutilityboard.org/blog/2021/02/09/amid-pandemic-comed-corruption-scandal-community-advocates-launch-push-for-clean-energy-jobs-act/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Adobe",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document20",
-    "SDG_Number": 8,
-    "SDG": "Decent work and economic growth",
-    "Company": "company",
-    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Adobe",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document21",
-    "SDG_Number": 9,
-    "SDG": "Industry, innovation and infrastructure",
-    "Company": "company",
-    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Ibm",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document22",
-    "SDG_Number": 9,
-    "SDG": "Industry, innovation and infrastructure",
-    "Company": "company",
-    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Ibm",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document23",
-    "SDG_Number": 9,
-    "SDG": "Industry, innovation and infrastructure",
-    "Company": "company",
-    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Nvidia",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document24",
-    "SDG_Number": 10,
-    "SDG": "Reduced inequalities",
-    "Company": "company",
-    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Nvidia",
+    "site": "https://www.theguardian.com/sustainable-business/2015/jul/21/food-waste-scandal-89-million-tonnes-binned-hunger"
   },
   {
     "document": "document25",
-    "SDG_Number": 10,
-    "SDG": "Reduced inequalities",
-    "Company": "company",
-    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Wikipedia",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document26",
-    "SDG_Number": 10,
-    "SDG": "Reduced inequalities",
-    "Company": "company",
-    "site": "http://www.businessfor2030.org/goal-10-reduce-inequality"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Wikipedia",
+    "site": "https://www.theguardian.com/sustainable-business/2015/jul/21/food-waste-scandal-89-million-tonnes-binned-hunger"
   },
   {
     "document": "document27",
-    "SDG_Number": 11,
-    "SDG": "Sustainable cities and communities",
-    "Company": "company",
-    "site": "https://earth.org/greenwashing-companies-corporations/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Unibo",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document28",
-    "SDG_Number": 11,
-    "SDG": "Sustainable cities and communities",
-    "Company": "company",
-    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Unibo",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document29",
-    "SDG_Number": 11,
-    "SDG": "Sustainable cities and communities",
-    "Company": "company",
-    "site": "https://www.eco-business.com/sustainable-development-goals/sustainable-cities-and-communities/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Google",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document30",
-    "SDG_Number": 12,
-    "SDG": "Responsible consumption and production",
-    "Company": "company",
-    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Google",
+    "site": "https://www.theguardian.com/sustainable-business/2015/jul/21/food-waste-scandal-89-million-tonnes-binned-hunger"
   },
   {
     "document": "document31",
-    "SDG_Number": 12,
-    "SDG": "Responsible consumption and production",
-    "Company": "company",
-    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Microsoft",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document32",
-    "SDG_Number": 12,
-    "SDG": "Responsible consumption and production",
-    "Company": "company",
-    "site": "https://www.sciencedirect.com/science/article/pii/S0959652621020461"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Microsoft",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document33",
-    "SDG_Number": 13,
-    "SDG": "Climate action",
-    "Company": "company",
-    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Tesla",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document34",
-    "SDG_Number": 13,
-    "SDG": "Climate action",
-    "Company": "company",
-    "site": "https://www.bbc.com/news/science-environment-60248830"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Tesla",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document35",
-    "SDG_Number": 13,
-    "SDG": "Climate action",
-    "Company": "company",
-    "site": "https://www.nytimes.com/2021/02/22/business/energy-environment/corporations-climate-change.html"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Adidas",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
   },
   {
     "document": "document36",
-    "SDG_Number": 14,
-    "SDG": "Life below water",
-    "Company": "company",
-    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "Adidas",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
   },
   {
     "document": "document37",
-    "SDG_Number": 14,
-    "SDG": "Life below water",
-    "Company": "company",
-    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Nike",
+    "site": "https://www.bbc.com/news/business-47911210"
   },
   {
     "document": "document38",
-    "SDG_Number": 14,
-    "SDG": "Life below water",
-    "Company": "company",
-    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg14-life-below-water.html"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Nike",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
   },
   {
     "document": "document39",
-    "SDG_Number": 15,
-    "SDG": "Life on land",
-    "Company": "company",
-    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Adobe",
+    "site": "https://www.bbc.com/news/business-47911210"
   },
   {
     "document": "document40",
-    "SDG_Number": 15,
-    "SDG": "Life on land",
-    "Company": "company",
-    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Adobe",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
   },
   {
     "document": "document41",
-    "SDG_Number": 15,
-    "SDG": "Life on land",
-    "Company": "company",
-    "site": "http://www.koreaherald.com/view.php?ud=20210312000801"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Ibm",
+    "site": "https://www.bbc.com/news/business-47911210"
   },
   {
     "document": "document42",
-    "SDG_Number": 16,
-    "SDG": "Peace, justice and strong institutions",
-    "Company": "company",
-    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Ibm",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
   },
   {
     "document": "document43",
-    "SDG_Number": 16,
-    "SDG": "Peace, justice and strong institutions",
-    "Company": "company",
-    "site": "https://amcham.com.my/the-role-of-businesses-in-ensuring-peace-justice-and-strong-institutions/"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Nvidia",
+    "site": "https://www.bbc.com/news/business-47911210"
   },
   {
     "document": "document44",
-    "SDG_Number": 16,
-    "SDG": "Peace, justice and strong institutions",
-    "Company": "company",
-    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Nvidia",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
   },
   {
     "document": "document45",
-    "SDG_Number": 17,
-    "SDG": "Partnerships for the sustainable goals",
-    "Company": "company",
-    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Wikipedia",
+    "site": "https://www.bbc.com/news/business-47911210"
   },
   {
     "document": "document46",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Wikipedia",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document47",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Unibo",
+    "site": "https://www.bbc.com/news/business-47911210"
+  },
+  {
+    "document": "document48",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Unibo",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document49",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Google",
+    "site": "https://www.bbc.com/news/business-47911210"
+  },
+  {
+    "document": "document50",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Google",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document51",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Microsoft",
+    "site": "https://www.bbc.com/news/business-47911210"
+  },
+  {
+    "document": "document52",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Microsoft",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document53",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Tesla",
+    "site": "https://www.bbc.com/news/business-47911210"
+  },
+  {
+    "document": "document54",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Tesla",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document55",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Adidas",
+    "site": "https://www.bbc.com/news/business-47911210"
+  },
+  {
+    "document": "document56",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "Adidas",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document57",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Nike",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document58",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Nike",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document59",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Adobe",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document60",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Adobe",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document61",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Ibm",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document62",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Ibm",
+    "site": "https://www.jstor.org/stable/20753376"
+  },
+  {
+    "document": "document63",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Nvidia",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document64",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Nvidia",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document65",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Wikipedia",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document66",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Wikipedia",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document67",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Unibo",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document68",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Unibo",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document69",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Google",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document70",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Google",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document71",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Microsoft",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document72",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Microsoft",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document73",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Tesla",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document74",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Tesla",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document75",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Adidas",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document76",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "Adidas",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document77",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Nike",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document78",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Nike",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document79",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Adobe",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document80",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Adobe",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document81",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Ibm",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document82",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Ibm",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document83",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Nvidia",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document84",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Nvidia",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document85",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Wikipedia",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document86",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Wikipedia",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document87",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Unibo",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document88",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Unibo",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document89",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Google",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document90",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Google",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document91",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Microsoft",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document92",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Microsoft",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document93",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Tesla",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document94",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Tesla",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document95",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Adidas",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document96",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "Adidas",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document97",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Nike",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document98",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Nike",
+    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+  },
+  {
+    "document": "document99",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Adobe",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document100",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Ibm",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document101",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Ibm",
+    "site": "https://www.theguardian.com/global/2018/oct/04/ontario-six-nations-nestle-running-water"
+  },
+  {
+    "document": "document102",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Nvidia",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document103",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Nvidia",
+    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+  },
+  {
+    "document": "document104",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Wikipedia",
+    "site": "https://www.theguardian.com/global/2018/oct/04/ontario-six-nations-nestle-running-water"
+  },
+  {
+    "document": "document105",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Wikipedia",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document106",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Unibo",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document107",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Unibo",
+    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+  },
+  {
+    "document": "document108",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Google",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document109",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Google",
+    "site": "https://www.theguardian.com/global/2018/oct/04/ontario-six-nations-nestle-running-water"
+  },
+  {
+    "document": "document110",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Microsoft",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document111",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Microsoft",
+    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+  },
+  {
+    "document": "document112",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Tesla",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document113",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Tesla",
+    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+  },
+  {
+    "document": "document114",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "Adidas",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document115",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Nike",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document116",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Nike",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document117",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Adobe",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document118",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Adobe",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document119",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Ibm",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document120",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Ibm",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document121",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Nvidia",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document122",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Nvidia",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document123",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Wikipedia",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document124",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Wikipedia",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document125",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Unibo",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document126",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Unibo",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document127",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Google",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document128",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Google",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document129",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Microsoft",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document130",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Microsoft",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document131",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Tesla",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document132",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Tesla",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document133",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Adidas",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document134",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "Adidas",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document135",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Nike",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document136",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Adobe",
+    "site": "https://sdg.iisd.org/news/ituc-calls-for-greater-transparency-decent-work-in-supply-chains/"
+  },
+  {
+    "document": "document137",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Ibm",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document138",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Nvidia",
+    "site": "https://sdg.iisd.org/news/ituc-calls-for-greater-transparency-decent-work-in-supply-chains/"
+  },
+  {
+    "document": "document139",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Wikipedia",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document140",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Unibo",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document141",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Google",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document142",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Microsoft",
+    "site": "https://sdg.iisd.org/news/ituc-calls-for-greater-transparency-decent-work-in-supply-chains/"
+  },
+  {
+    "document": "document143",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Tesla",
+    "site": "https://sdg.iisd.org/news/ituc-calls-for-greater-transparency-decent-work-in-supply-chains/"
+  },
+  {
+    "document": "document144",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "Adidas",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document145",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Nike",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document146",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Nike",
+    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+  },
+  {
+    "document": "document147",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Adobe",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document148",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Adobe",
+    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+  },
+  {
+    "document": "document149",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Ibm",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document150",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Ibm",
+    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+  },
+  {
+    "document": "document151",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Nvidia",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document152",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Nvidia",
+    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+  },
+  {
+    "document": "document153",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Wikipedia",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document154",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Wikipedia",
+    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+  },
+  {
+    "document": "document155",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Unibo",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document156",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Unibo",
+    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+  },
+  {
+    "document": "document157",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Google",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document158",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Google",
+    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+  },
+  {
+    "document": "document159",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Microsoft",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document160",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Microsoft",
+    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+  },
+  {
+    "document": "document161",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Tesla",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document162",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Tesla",
+    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+  },
+  {
+    "document": "document163",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Adidas",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document164",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "Adidas",
+    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+  },
+  {
+    "document": "document165",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Nike",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document166",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Nike",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document167",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Adobe",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document168",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Adobe",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document169",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Ibm",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document170",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Ibm",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document171",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Nvidia",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document172",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Nvidia",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document173",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Wikipedia",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document174",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Wikipedia",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document175",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Unibo",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document176",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Unibo",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document177",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Google",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document178",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Google",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document179",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Microsoft",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document180",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Microsoft",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document181",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Tesla",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document182",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Tesla",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document183",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Adidas",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document184",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "Adidas",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document185",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Nike",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document186",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Nike",
+    "site": "https://www.eco-business.com/sustainable-development-goals/sustainable-cities-and-communities/"
+  },
+  {
+    "document": "document187",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Adobe",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document188",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Adobe",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document189",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Ibm",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document190",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Ibm",
+    "site": "https://www.eco-business.com/sustainable-development-goals/sustainable-cities-and-communities/"
+  },
+  {
+    "document": "document191",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Nvidia",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document192",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Nvidia",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document193",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Wikipedia",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document194",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Wikipedia",
+    "site": "https://www.eco-business.com/sustainable-development-goals/sustainable-cities-and-communities/"
+  },
+  {
+    "document": "document195",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Unibo",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document196",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Unibo",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document197",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Google",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document198",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Google",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document199",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Microsoft",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document200",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Microsoft",
+    "site": "https://www.eco-business.com/sustainable-development-goals/sustainable-cities-and-communities/"
+  },
+  {
+    "document": "document201",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Tesla",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document202",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Tesla",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document203",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Adidas",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document204",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "Adidas",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document205",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Nike",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document206",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Nike",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document207",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Adobe",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document208",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Adobe",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document209",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Ibm",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document210",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Ibm",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document211",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Nvidia",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document212",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Nvidia",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document213",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Wikipedia",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document214",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Wikipedia",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document215",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Unibo",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document216",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Unibo",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document217",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Google",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document218",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Google",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document219",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Microsoft",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document220",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Microsoft",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document221",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Tesla",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document222",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Tesla",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document223",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Adidas",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document224",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "Adidas",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document225",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Nike",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document226",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Nike",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document227",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Adobe",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document228",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Adobe",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document229",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Ibm",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document230",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Ibm",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document231",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Nvidia",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document232",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Nvidia",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document233",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Wikipedia",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document234",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Wikipedia",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document235",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Unibo",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document236",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Unibo",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document237",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Google",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document238",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Google",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document239",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Microsoft",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document240",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Microsoft",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document241",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Tesla",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document242",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Tesla",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document243",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Adidas",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document244",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "Adidas",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document245",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Nike",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document246",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Nike",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document247",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Adobe",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document248",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Adobe",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document249",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Ibm",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document250",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Ibm",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document251",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Nvidia",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg14-life-below-water.html"
+  },
+  {
+    "document": "document252",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Nvidia",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document253",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Wikipedia",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document254",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Wikipedia",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document255",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Unibo",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg14-life-below-water.html"
+  },
+  {
+    "document": "document256",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Unibo",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document257",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Google",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document258",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Google",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document259",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Microsoft",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document260",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Microsoft",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document261",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Tesla",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg14-life-below-water.html"
+  },
+  {
+    "document": "document262",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Tesla",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document263",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Adidas",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document264",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "Adidas",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document265",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Nike",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document266",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Nike",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document267",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Adobe",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document268",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Adobe",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document269",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Ibm",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document270",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Ibm",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document271",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Nvidia",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document272",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Nvidia",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document273",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Wikipedia",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document274",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Wikipedia",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document275",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Unibo",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document276",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Unibo",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document277",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Google",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document278",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Google",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document279",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Microsoft",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document280",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Microsoft",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document281",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Tesla",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document282",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Tesla",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document283",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Adidas",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document284",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "Adidas",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document285",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Nike",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document286",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Nike",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document287",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Adobe",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document288",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Adobe",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document289",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Ibm",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document290",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Ibm",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document291",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Nvidia",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document292",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Nvidia",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document293",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Wikipedia",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document294",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Wikipedia",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document295",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Unibo",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document296",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Unibo",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document297",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Google",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document298",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Google",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document299",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Microsoft",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document300",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Microsoft",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document301",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Tesla",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document302",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Tesla",
+    "site": "https://amcham.com.my/the-role-of-businesses-in-ensuring-peace-justice-and-strong-institutions/"
+  },
+  {
+    "document": "document303",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Adidas",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document304",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "Adidas",
+    "site": "https://amcham.com.my/the-role-of-businesses-in-ensuring-peace-justice-and-strong-institutions/"
+  },
+  {
+    "document": "document305",
     "SDG_Number": 17,
     "SDG": "Partnerships for the sustainable goals",
-    "Company": "company",
-    "site": "https://www.undp.org/sustainable-development-goals"
+    "Company": "Nike",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document306",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Adobe",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document307",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Ibm",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document308",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Nvidia",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document309",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Wikipedia",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document310",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Unibo",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document311",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Google",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document312",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Microsoft",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document313",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Tesla",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document314",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "Adidas",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
   }
 ]

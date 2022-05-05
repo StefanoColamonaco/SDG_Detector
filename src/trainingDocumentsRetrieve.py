@@ -2,12 +2,13 @@ import json
 import nltk
 from googlesearch import search
 import time
+import re
 from textRetriever import site 
 
 NUMSENTENCESPERPARAGRAPH = 5
 DOCSPERSDG = 2
 SDGOBJECTIVES = [ "No poverty", "Zero hunger", "Good health and well-being", "Quality education", "Gender equality", "Clean water and sanitation", "Affordable and clean energy", "Decent work and economic growth", "Industry, innovation and infrastructure", "Reduced inequalities", "Sustainable cities and communities", "Responsible consumption and production", "Climate action", "Life below water", "Life on land", "Peace, justice and strong institutions", "Partnerships for the sustainable goals" ]
-TRAININGCOMPANIES = ["Nike","Adobe", "Ibm", "Nvidia","Wikipedia","Unibo", "Google", "Microsoft","Tesla", "Adidas"]
+TRAININGCOMPANIES = ["Tesla", "Adidas","Nike","Adobe", "Ibm", "Nvidia","Wikipedia","Unibo", "Google", "Microsoft"]
 #TRAININGCOMPANIES = ["company"]
 
 def automaticTrainingDocumentRetrieve(newAnalysis, positive=1):
@@ -74,7 +75,7 @@ def splitTextIntoParagraphs(text):
     for i in range(0,len(sentences)):
         paragraph = paragraph + sentences[i] + " "
         if((i+1)&NUMSENTENCESPERPARAGRAPH == 0):
-            paragraph = " ".join(filter(lambda x:x[0]!="\\", paragraph.split()))
+            paragraph = " ".join(filter(lambda x:x[0]!='\n', paragraph.split()))#re.sub(r'(\s)\n\w+', r'\1', paragraph)#
             data.append(paragraph)
             paragraph = ""
     return data
