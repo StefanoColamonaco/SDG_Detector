@@ -1,0 +1,324 @@
+[
+  {
+    "document": "document1",
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "company",
+    "site": "https://www.bbc.com/news/uk-politics-27981975"
+  },
+  {
+    "document": "document2",
+    "SDG_Number": 1,
+    "SDG": "No poverty",
+    "Company": "company",
+    "site": "https://tfn.scot/news/christian-charity-chief-savages-the-scandal-of-poverty"
+  },
+  {
+    "document": "document3",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "company",
+    "site": "https://reliefweb.int/report/world/companies-pledge-millions-end-hunger-world-2030-part-zero-hunger-private-sector-pledge"
+  },
+  {
+    "document": "document4",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "company",
+    "site": "https://www.edie.net/mps-call-for-a-new-minister-for-hunger-to-tackle-food-insecurity-scandal/"
+  },
+  {
+    "document": "document5",
+    "SDG_Number": 2,
+    "SDG": "Zero hunger",
+    "Company": "company",
+    "site": "https://www.theguardian.com/sustainable-business/2015/jul/21/food-waste-scandal-89-million-tonnes-binned-hunger"
+  },
+  {
+    "document": "document6",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "company",
+    "site": "https://www.bbc.com/news/business-47911210"
+  },
+  {
+    "document": "document7",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "company",
+    "site": "https://hbr.org/2021/10/7-strategies-to-improve-your-employees-health-and-well-being"
+  },
+  {
+    "document": "document8",
+    "SDG_Number": 3,
+    "SDG": "Good health and well-being",
+    "Company": "company",
+    "site": "https://www.hec.edu/en/news-room/impact-employee-health-and-wellbeing-company-performance"
+  },
+  {
+    "document": "document9",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "company",
+    "site": "https://integrity-asia.com/blog/2020/04/30/bad-education-the-ugly-truth-of-fraud-scandals-in-an-educational-institution/"
+  },
+  {
+    "document": "document10",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "company",
+    "site": "https://www.jstor.org/stable/20753376"
+  },
+  {
+    "document": "document11",
+    "SDG_Number": 4,
+    "SDG": "Quality education",
+    "Company": "company",
+    "site": "https://edintegrity.biomedcentral.com/articles/10.1007/s40979-017-0019-0"
+  },
+  {
+    "document": "document12",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "company",
+    "site": "https://www.theatlantic.com/business/archive/2015/12/gender-equality-workplace-2015/422328/"
+  },
+  {
+    "document": "document13",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "company",
+    "site": "https://www.siliconrepublic.com/careers/gender-gap-case-studies"
+  },
+  {
+    "document": "document14",
+    "SDG_Number": 5,
+    "SDG": "Gender equality",
+    "Company": "company",
+    "site": "https://www.theguardian.com/games/2021/dec/28/riot-games-to-pay-100m-to-settle-gender-discrimination-lawsuit"
+  },
+  {
+    "document": "document15",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "company",
+    "site": "https://washmatters.wateraid.org/blog/70-years-of-human-rights-but-the-water-sanitation-and-hygiene-scandal-continues"
+  },
+  {
+    "document": "document16",
+    "SDG_Number": 6,
+    "SDG": "Clean water and sanitation",
+    "Company": "company",
+    "site": "https://www.nestle.com/ask-nestle/human-rights/answers/nestle-chairman-peter-brabeck-letmathe-believes-water-is-a-human-right"
+  },
+  {
+    "document": "document17",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "company",
+    "site": "https://en.wikipedia.org/wiki/Renewable_Heat_Incentive_scandal"
+  },
+  {
+    "document": "document18",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "company",
+    "site": "https://www.energyandpolicy.org/utility-corruption/"
+  },
+  {
+    "document": "document19",
+    "SDG_Number": 7,
+    "SDG": "Affordable and clean energy",
+    "Company": "company",
+    "site": "https://www.citizensutilityboard.org/blog/2021/02/09/amid-pandemic-comed-corruption-scandal-community-advocates-launch-push-for-clean-energy-jobs-act/"
+  },
+  {
+    "document": "document20",
+    "SDG_Number": 8,
+    "SDG": "Decent work and economic growth",
+    "Company": "company",
+    "site": "https://www.actu.org.au/actu-media/speeches-and-opinion/speech-by-ben-davison-decent-work-economic-growth-speech-to-sustainable-development-goals-australia-2016"
+  },
+  {
+    "document": "document21",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "company",
+    "site": "https://ec.europa.eu/international-partnerships/sdg/industry-innovation-and-infrastructure_en"
+  },
+  {
+    "document": "document22",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "company",
+    "site": "https://in.one.un.org/page/sustainable-development-goals/sdg-9/"
+  },
+  {
+    "document": "document23",
+    "SDG_Number": 9,
+    "SDG": "Industry, innovation and infrastructure",
+    "Company": "company",
+    "site": "https://www.a2a.eu/en/sustainability/SDG-9-industries-innovation-infrastructure"
+  },
+  {
+    "document": "document24",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "company",
+    "site": "https://www.christianaid.org.uk/resources/about-us/scandal-inequality-2-english"
+  },
+  {
+    "document": "document25",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "company",
+    "site": "https://theconversation.com/oxfam-scandal-development-work-is-built-on-inequality-but-thats-no-reason-to-cut-foreign-aid-91701"
+  },
+  {
+    "document": "document26",
+    "SDG_Number": 10,
+    "SDG": "Reduced inequalities",
+    "Company": "company",
+    "site": "http://www.businessfor2030.org/goal-10-reduce-inequality"
+  },
+  {
+    "document": "document27",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "company",
+    "site": "https://earth.org/greenwashing-companies-corporations/"
+  },
+  {
+    "document": "document28",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "company",
+    "site": "https://www.worldbank.org/en/topic/sustainable-communities"
+  },
+  {
+    "document": "document29",
+    "SDG_Number": 11,
+    "SDG": "Sustainable cities and communities",
+    "Company": "company",
+    "site": "https://www.eco-business.com/sustainable-development-goals/sustainable-cities-and-communities/"
+  },
+  {
+    "document": "document30",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "company",
+    "site": "https://www.un.org/sustainabledevelopment/sustainable-consumption-production/"
+  },
+  {
+    "document": "document31",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "company",
+    "site": "https://www.springerprofessional.de/en/socially-responsible-consumption-and-marketing-in-practice/20085994"
+  },
+  {
+    "document": "document32",
+    "SDG_Number": 12,
+    "SDG": "Responsible consumption and production",
+    "Company": "company",
+    "site": "https://www.sciencedirect.com/science/article/pii/S0959652621020461"
+  },
+  {
+    "document": "document33",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "company",
+    "site": "https://www.theguardian.com/sustainable-business/2015/oct/13/how-companies-can-keep-the-faith-on-climate-change"
+  },
+  {
+    "document": "document34",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "company",
+    "site": "https://www.bbc.com/news/science-environment-60248830"
+  },
+  {
+    "document": "document35",
+    "SDG_Number": 13,
+    "SDG": "Climate action",
+    "Company": "company",
+    "site": "https://www.nytimes.com/2021/02/22/business/energy-environment/corporations-climate-change.html"
+  },
+  {
+    "document": "document36",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "company",
+    "site": "https://www.globalgoals.org/goals/14-life-below-water/"
+  },
+  {
+    "document": "document37",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "company",
+    "site": "https://www.heroesneversleep.com/en/sustainable_goals/14-life-below-water/"
+  },
+  {
+    "document": "document38",
+    "SDG_Number": 14,
+    "SDG": "Life below water",
+    "Company": "company",
+    "site": "https://www.danone.com/impact/un-sustainable-developement-goals/sdg14-life-below-water.html"
+  },
+  {
+    "document": "document39",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "company",
+    "site": "https://reliefweb.int/report/world/land-and-power-growing-scandal-surrounding-new-wave-investments-land"
+  },
+  {
+    "document": "document40",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "company",
+    "site": "https://www.propmodo.com/a-history-of-real-estate-fraud-in-8-scandals/"
+  },
+  {
+    "document": "document41",
+    "SDG_Number": 15,
+    "SDG": "Life on land",
+    "Company": "company",
+    "site": "http://www.koreaherald.com/view.php?ud=20210312000801"
+  },
+  {
+    "document": "document42",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "company",
+    "site": "https://www.un.org/sustainabledevelopment/peace-justice/"
+  },
+  {
+    "document": "document43",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "company",
+    "site": "https://amcham.com.my/the-role-of-businesses-in-ensuring-peace-justice-and-strong-institutions/"
+  },
+  {
+    "document": "document44",
+    "SDG_Number": 16,
+    "SDG": "Peace, justice and strong institutions",
+    "Company": "company",
+    "site": "https://sdgresources.relx.com/reports/blueprint-business-leadership-sdg-16"
+  },
+  {
+    "document": "document45",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "company",
+    "site": "https://www.un.org/sustainabledevelopment/globalpartnerships/"
+  },
+  {
+    "document": "document46",
+    "SDG_Number": 17,
+    "SDG": "Partnerships for the sustainable goals",
+    "Company": "company",
+    "site": "https://www.undp.org/sustainable-development-goals"
+  }
+]
