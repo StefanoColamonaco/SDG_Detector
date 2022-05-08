@@ -2,9 +2,12 @@ import sys
 import os, nltk, re, random, time
 from nltk.parse import CoreNLPDependencyParser
 from nltk.corpus import wordnet as wn
+from nltk.metrics import ConfusionMatrix
 import json
 import pickle
 import re
+import random
+from math import floor
 
 from textClassifier import vrbobj_pairs
 
@@ -68,8 +71,10 @@ def load_data(opt):
             for gcmp in range(1, 18):
                 dataset[goal] += [(entry, goal == gcmp) for entry in sdgir[gcmp][1]]
     elif opt == 3:
+        negdata = {}
         for goal in range(1, 18):
             dataset[goal] = []
+            negdata[goal] = []
         file_register = open('../data/automatedTrainingURLs/documentsRegister.json')
         register = json.load(file_register)
         file_register.close()
@@ -77,19 +82,41 @@ def load_data(opt):
             file_document = open('../data/automatedTrainingURLs/documents/' + regent['document'] + '.json')
             document = json.load(file_document)
             file_document.close()
-            document_text = ' '.join(document)
-            CLEANR = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
-            document_text = re.sub(CLEANR, '', document_text)
+            for i in range(len(document)):
+                document[i] = " ".join(filter(lambda x:x[0]!='#', document[i].split()))
+            document_text = " ".join(document)
             goal = regent['SDG_Number']
             dataset[goal].append((document_text, True))
-            # TODO: negative texts
-
-                
+        file_register = open('../data/automatedTrainingURLs/negDocumentsRegister.json')
+        register = json.load(file_register)
+        file_register.close()
+        for regent in register:
+            file_document = open('../data/automatedTrainingURLs/negDocuments/' + regent['document'] + '.json')
+            document = json.load(file_document)
+            file_document.close()
+            for i in range(len(document)):
+                document[i] = " ".join(filter(lambda x:x[0]!='#', document[i].split()))
+            document_text = " ".join(document)
+            goal = regent['SDG_Number']
+            negdata[goal].append((document_text, False))
+        for goal in range(1, 18): # avoiding unbalanced dataset through undersampling
+            if len(negdata[goal]) > len(dataset[goal]):
+                random.shuffle(negdata[goal])
+                negdata[goal] = negdata[goal][:len(dataset[goal])]
+            elif len(dataset[goal]) > len(negdata[goal]):
+                random.shuffle(dataset[goal])
+                dataset[goal] = dataset[goal][:len(negdata[goal])]
+            dataset[goal] += negdata[goal]
+            
 # creating feature extractor based on verb-object pair overlap
 def feature_extractor(goal, text):
     features = {} # features
     fc = 0
-    pairs = vrbobj_pairs(text)
+    pairs = []
+    try:
+        pairs = vrbobj_pairs(text)
+    except:
+        pass
     for target in tpairs[goal]:
         features['contains(%s)' % str(target)] = False
         for p in pairs:
@@ -109,12 +136,28 @@ def feature_extractor(goal, text):
                 break
     return features
 
+# multiple paragraph extractor
+def mp_extractor(goal, dataset):
+    maxl = 1000
+    featuresets = []
+    for (e, g) in dataset[goal]:
+        flist = {}
+        for el in [e[i:i+maxl] for i in range(0, len(e), maxl)]:
+            fpar = feature_extractor(goal, el)
+            if len(flist) == 0:
+                flist = fpar
+            else:
+                for ft in flist.keys():
+                    flist[ft] = flist[ft] or fpar[ft]
+        featuresets.append((flist, g))
+    return featuresets
+
 # training classifier
 def train_model(training_option):
     print("training the classifiers for the option " + str(training_option) + "...")
     for goal in sdgir.keys():
         print("training the classifier for the goal " + str(goal) + "...")
-        featuresets = [(feature_extractor(goal, e), g) for (e, g) in dataset[goal]]
+        featuresets = mp_extractor(goal, dataset)
         train_set = featuresets
         classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
         print("the classifier for the goal " + str(goal) + " finished")
@@ -122,9 +165,41 @@ def train_model(training_option):
     print("the classifiers for the option " + str(training_option) + " trained")
     pickle.dump(classifier, open(filename, 'wb'))
 
+# testing classifier
+def test_model(training_option):
+    preload()
+    load_data(training_option)
+    print("training the classifiers for the option " + str(training_option) + "...")
+    for goal in sdgir.keys():
+        featuresets = mp_extractor(goal, dataset)
+        random.shuffle(featuresets)
+        quart = floor((len(featuresets)/4))
+        train_set = featuresets[:quart] + featuresets[(2*quart):(3*quart)]
+        test_set = featuresets[quart:(2*quart)] + featuresets[(3*quart):]
+        print('Goal %d' % int(goal))
+        print('Train set size: %d' % len(train_set))
+        print('Test set size: %d' % len(test_set))
+        classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
+        # class_acc = nltk.classify.accuracy(classifier[goal], test_set) 
+        # print('the classifier has %.2f%% accuracy' % (class_acc * 100))
+        ref = []
+        tagged = []
+        for t in test_set:
+            tagged.append(classifier[goal].classify(t[0]))
+            ref.append(t[1])
+        cm = ConfusionMatrix(ref, tagged)
+        print(cm)    
+        
 if __name__ == "__main__":
     training_option = int(sys.argv[1])
+    testing_option = int(sys.argv[2])
     if not 1 <= training_option <= 3:
-        print('This option doesn\'t exist.')
+        print('This training option doesn\'t exist.')
         exit()
-    build_model(training_option)
+    if not 1 <= testing_option <= 2:
+        print('This testing option doesn\'t exist.')
+        exit()
+    if testing_option == 1:
+        build_model(training_option)
+    else:
+        test_model(training_option)
