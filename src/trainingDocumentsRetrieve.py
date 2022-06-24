@@ -8,8 +8,9 @@ from textRetriever import site
 NUMSENTENCESPERPARAGRAPH = 5
 DOCSPERSDG = 2
 SDGOBJECTIVES = [ "No poverty", "Zero hunger", "Good health and well-being", "Quality education", "Gender equality", "Clean water and sanitation", "Affordable and clean energy", "Decent work and economic growth", "Industry, innovation and infrastructure", "Reduced inequalities", "Sustainable cities and communities", "Responsible consumption and production", "Climate action", "Life below water", "Life on land", "Peace, justice and strong institutions", "Partnerships for the sustainable goals" ]
-TRAININGCOMPANIES = ["Tesla", "Adidas","Nike","Adobe", "Ibm", "Nvidia","Wikipedia","Unibo", "Google", "Microsoft"]
+TRAININGCOMPANIES = ["Tesla","Nike","Adobe", "Ibm", "Nvidia","Wikipedia","Unibo", "Google", "Microsoft"]
 #TRAININGCOMPANIES = ["company"]
+
 
 def automaticTrainingDocumentRetrieve(newAnalysis, positive=1):
     count = 0
@@ -29,13 +30,15 @@ def automaticTrainingDocumentRetrieve(newAnalysis, positive=1):
                 try:
                     urls = search(query)
                     urls = list(urls)
+                    print(len(urls))
                 except:
                     print("Error in google request")
                 if (count % 10 == 0):                   # to avoid 429
                     time.sleep(20)                      #
                 else:                                   #
                     time.sleep(1 + (0.01*count))        #
-                for i in range(0,DOCSPERSDG):
+                effective = DOCSPERSDG
+                for i in range(0,effective):
                     url = urls[i]
                     if (url.find(".pdf") == -1):
                         text = site(url)
@@ -50,6 +53,10 @@ def automaticTrainingDocumentRetrieve(newAnalysis, positive=1):
                             json.dump(data, f, indent=2)
                         dataForRegister.append({"document": "document"+str(count+1), "SDG_Number":objIndex+1,"SDG":objective,"Company":company,"site":url})
                         count = count+1
+                    else:
+                        effective = effective + 1
+                        if(effective > DOCSPERSDG + 5):
+                            effective = DOCSPERSDG
         filename = ""
         if(positive == 1):
             filename = "../data/automatedTrainingURLs/documentsRegister.json" 
@@ -79,7 +86,6 @@ def splitTextIntoParagraphs(text):
             data.append(paragraph)
             paragraph = ""
     return data
-    
 
 def getFragmentsFromDocument(docNumber):
     file = open('../data/automatedTrainingURLs/documents/document' + str(docNumber) + ".json" )

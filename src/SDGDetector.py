@@ -27,13 +27,13 @@ recursiveGeneration = 0
 # if 1: Dataset generation will use recursive generation tecnique 
 # if 0: Will use the first implementation of dataset generation from hand-written phrases
 
-newAnalysis = 0 # IMPORTANT !! Please Fil keep it on zero
+newAnalysis = 0 # IMPORTANT !! keep it on zero
 # if 1: Will generate a new set of documents from which to derive training data
 # if 0: Will use the current set of documents in data/automatedTrainingURLs/documents/
 
 
 if __name__ == "__main__":
-    #automaticTrainingDocumentRetrieve(1,0)       # To retrieve documents without pairs extrapolation
+    #automaticTrainingDocumentRetrieve(1)       # To retrieve documents without pairs extrapolation
     if( generateDataset == 1 ):
         if( recursiveGeneration == 1 ):
             initialize()
