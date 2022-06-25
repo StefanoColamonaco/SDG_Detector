@@ -7,7 +7,9 @@ import json
 import pickle
 import re
 import random
-from math import floor
+from math import floor, sqrt
+from sklearn.model_selection import KFold
+import numpy as np
 
 from textClassifier import vrbobj_pairs
 
@@ -170,25 +172,59 @@ def test_model(training_option):
     preload()
     load_data(training_option)
     print("training the classifiers for the option " + str(training_option) + "...")
-    for goal in sdgir.keys():
-        featuresets = mp_extractor(goal, dataset)
-        random.shuffle(featuresets)
-        quart = floor((len(featuresets)/4))
-        train_set = featuresets[:quart] + featuresets[(2*quart):(3*quart)]
-        test_set = featuresets[quart:(2*quart)] + featuresets[(3*quart):]
+    tmplst = [1, 8]
+    for goal in tmplst: # sdgir.keys():
         print('Goal %d' % int(goal))
-        print('Train set size: %d' % len(train_set))
-        print('Test set size: %d' % len(test_set))
-        classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
-        # class_acc = nltk.classify.accuracy(classifier[goal], test_set) 
-        # print('the classifier has %.2f%% accuracy' % (class_acc * 100))
-        ref = []
-        tagged = []
-        for t in test_set:
-            tagged.append(classifier[goal].classify(t[0]))
-            ref.append(t[1])
-        cm = ConfusionMatrix(ref, tagged)
-        print(cm)    
+        featuresets = np.array(mp_extractor(goal, dataset))
+        kfold = KFold(len(featuresets), random_state=1, shuffle=True)
+        TP, TN, FP, FN = 0.0, 0.0, 0.0, 0.0
+        for train, test in kfold.split(featuresets):
+            # print('iteration')
+            test_set = featuresets[test]
+            train_set = featuresets[train]
+            # print('Train set size: %d' % len(train_set))
+            # print('Test set size: %d' % len(test_set))
+            classifier[goal] = nltk.NaiveBayesClassifier.train(train_set)
+            ref = []
+            tagged = []
+            for t in test_set:
+                tag = classifier[goal].classify(t[0])
+                tagged.append(tag)
+                ref.append(t[1])
+                if tag == t[1]:
+                    if tag == 1:
+                        TP += 1.0
+                    else:
+                        TN += 1.0
+                else:
+                    if tag == 1:
+                        FP += 1.0
+                    else:
+                        FN += 1.0
+        ref = [True] * int(TP) + [False] * int(FP) + [True] * int(FN) + [False] * int(TN)
+        tag = [True] * int(TP) + [True] * int(FP) + [False] * int(FN) + [False] * int(TN)
+        cm = ConfusionMatrix(ref, tag)
+        P = TP + FN
+        N = TN + FP
+        acc = (TP + TN) / (P + N)
+        ba = ((TP / P) + (TN / N)) / 2
+        try:
+            kappa = (2 * (TP * TN - FP * FN)) / ((TP + FP) * (TN + FP) + (TP + FN) * (TN + FN))
+        except ZeroDivisionError:
+            kappa = 0
+        try:
+            mcc = (TP * TN - FP * FN) / sqrt((TP + FP) * (TP + FN) * (TN + FP) * (TN + FN))
+        except ZeroDivisionError:
+            mcc = 0     
+        print(cm)
+        print('TP = %d' % TP)
+        print('TN = %d' % TN)
+        print('FP = %d' % FP)
+        print('FN = %d' % FN)
+        print('ACC = %f' % acc)
+        print('BA = %f' % ba)
+        print('kappa = %f' % kappa)
+        print('MCC = %f' % mcc)
         
 if __name__ == "__main__":
     training_option = int(sys.argv[1])
